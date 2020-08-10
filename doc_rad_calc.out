@@ -1,0 +1,14 @@
+\BOOKMARK [2][-]{subsection.0.1}{The Setup}{}% 1
+\BOOKMARK [1][-]{section.1}{Geometry and relative position of the detectors in the beam direction}{}% 2
+\BOOKMARK [1][-]{section.2}{RUNS used for calibration = SWEEP RUNS without target}{}% 3
+\BOOKMARK [2][-]{subsubsection.2.0.1}{Other RUNS used for various checks:}{section.2}% 4
+\BOOKMARK [1][-]{section.3}{Methods for flightpath reconstruction in the \(x,z\) plane}{}% 5
+\BOOKMARK [2][-]{subsection.3.1}{The "Kickplane" method}{section.3}% 6
+\BOOKMARK [3][-]{subsubsection.3.1.1}{From MW0 to the entrance of GLAD, the ion is following a straight line}{subsection.3.1}% 7
+\BOOKMARK [3][-]{subsubsection.3.1.2}{From entrance to the exit of GLAD, the effective trajectory is circular}{subsection.3.1}% 8
+\BOOKMARK [3][-]{subsubsection.3.1.3}{After GLAD up to the TOFW, the trajectory is a straight line}{subsection.3.1}% 9
+\BOOKMARK [2][-]{subsection.3.2}{The "Fit-Track" method}{section.3}% 10
+\BOOKMARK [2][-]{subsection.3.3}{The "Theta\137in correction" method}{section.3}% 11
+\BOOKMARK [2][-]{subsection.3.4}{Optional method: Kickplane method, setting theta\137in to 0}{section.3}% 12
+\BOOKMARK [1][-]{section.4}{Plots}{}% 13
+\BOOKMARK [2][-]{subsection.4.1}{MWPC1 vs MWPC2 - x position}{section.4}% 14

@@ -2,6 +2,13 @@
 \usepackage[utf8]{inputenc}
 \usepackage[pdftex]{graphicx}
 \usepackage{xspace}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=cyan,
+}
 \graphicspath{ {/home/tobiasjenegger/Documents/summary/} }
 \title{Radius/Momentum Calculation for S444 Experiment February 2020 - Overview}
 \author{Tobias Jenegger}
@@ -74,19 +81,19 @@ $\Rightarrow$ one absolute position at MWPC3}\\
 \\
 From this information the angle theta\textunderscore out is constructed in follwing steps:\\
 \begin{enumerate}
-	\item Extend the straight flightline of the ion before the GLAD.
+	\item Extend the line of flight of the ion before the GLAD.
 	\item The point of intersection with the "kickplane" (symmetry axis line of GLAD magnet) is the kickpoint C.
 	\item Draw a straight line between C and the absolute position at MWPC3 = M3.
 	 \item theta\textunderscore out is the positive angle between the z-beam direction and the line between C and M3.
 \end{enumerate}
-The curvature radius $\rho$ is given by:\\
+The curvature radius $\rho$ is given by\footnote{for consistency checks the $\cos(\delta)$ term can be omitted, as it plays a minor role}:\\
 $\rho$ = $\frac{\textrm{L\textunderscore eff}}{2\cdot\sin\left(\frac{theta\textunderscore in}{2} +\frac{theta\textunderscore out}{2}\right)\cdot\cos(\delta)}$\\
 \\
 With $\delta$: \\
 $\delta = \arctan\left( \Bigg| \frac{\frac{cos(theta\textunderscore out)-\cos(theta\textunderscore in)}{\sin(theta\textunderscore out)+\sin(theta\textunderscore in)}+\tan(\alpha)}{1-\frac{cos(theta\textunderscore out)-\cos(theta\textunderscore in)}{\sin(theta\textunderscore out)+\sin(theta\textunderscore in)}\cdot\tan(\alpha)}\Bigg| \right)$ \\
 The full derivation can be found in the appendix.\\
 \\
-The circular trajectory is given by:\\
+The circular trajectory is then given by:\\
 $\omega = 2*\Bigg|\arcsin\Big[\frac{BD}{2\cdot\rho}\Big] \Bigg|$\\
 \\
 with BD = length of the BD segment\\
@@ -110,14 +117,46 @@ B = (x,z) position at the GLAD entry point\\
 D = (x,z) position at the GLAD exit point\\
 E = (x,z) position where the constructed trajectory line hits the ToFW\\
 \\
-The assumption in the "Kickplane" method is that the kickpoint for each event lies on the predefinded Kickplane, the symmetry axis line of the GLAD magnet. 
+The assumption for the "Kickplane" method is that the kickpoint for each event lies on the predefinded Kickplane, the symmetry axis line of the GLAD magnet. 
 
 \subsection{The "Fit-Track" method}
-\subsection{The "Optic correction" method}
+For the "Fit-Track" method the assumption that the kickpoint C lies on the symmetry axis line of the GLAD magnet is rejected. Instead following algorithm is applied: \footnote{This algorithm is motivated from \url{https://www.blogs.uni-mainz.de/fb08-kernphysik/files/2018/09/PHDThesis_OlgaBertini.pdf}, section $3.4$  }\\
+\begin{enumerate}
+\item Extend the line of flight of the ion before the GLAD.
+\item Draw a line from the point MW3 to C (as constructed with the "Kickplane" method).
+\item Now sweep the straight line after the kickpoint, leaving the position MW3 unchanged but sweeping the intersection point along the inline beam.
+\item For each sweeping step plot theta\textunderscore out versus (d1-d2) where d1 is the distance betweeen B and the point of intersection and d2 the distance between D and the intersection point accordingly.
+\item 50 sweeping steps are performed.
+\item Fit the final theta\textunderscore out versus (d1-d2) plot with linear least square fit. 
+\item Find the intersection of the abscissa. The corresponding theta\textunderscore out value is now the corrected one which should be used for the calculation of the radius.
+\end{enumerate}
+\begin{center}
+	\includegraphics[width=1.2\textwidth]{tracking_alg_ALADIN_s.png}
+\end{center}
+\begin{center}
+	\includegraphics[width=0.5\textwidth]{theta_out_vs_d.png}
+\end{center}
 
 
+\subsection{The "Theta\textunderscore in correction" method}
 
+Here the "Kickplane" method is used and subsequently the theta\textunderscore out is corrected by  theta\textunderscore in. That means:\\
+\\
+theta\textunderscore out\textunderscore corr = theta\textunderscore out - theta\textunderscore in.\\
+\\
+Consequentely the theta\textunderscore in dependence of $\rho$ vanishes(neglecting the $\cos(\delta)$ term):\\
+\\
 
+$\rho$ = $\frac{\textrm{L\textunderscore eff}}{2\cdot\sin\left(\frac{theta\textunderscore in}{2} +\frac{theta\textunderscore out\textunderscore corr}{2}\right)} = \frac{\textrm{L\textunderscore eff}}{2\cdot\sin\left(\frac{theta\textunderscore out}{2}\right)}$
+\begin{center}
+	\includegraphics[width=0.7\textwidth]{theta_out_corr_alg.png}
+\end{center}
+
+\subsection{Optional method: Kickplane method, setting theta\textunderscore in to 0}
+
+\section{Plots}
+In this section all the plots for the various track finding algorithms are presented. For the calculation of the theta\textunderscore in angle MWPC1 and MWPC2 are used. Alternatively MWPC0 and MWPC2 could be used, to get a longer lever arm (work in progress ...).\\
+\subsection{MWPC1 vs MWPC2 - x position}
 
 
 \end{document}
