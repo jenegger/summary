@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.7.31)  31 JUL 2020 13:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.7.31)  10 AUG 2020 14:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -485,34 +485,214 @@ Overfull \vbox (2.60918pt too high) has occurred while \output is active []
 
 [1 <./mes_wixh.png> <./SETUP_around_Target.png>]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 22.
+(Font)              <12> on input line 24.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 22.
+(Font)              <8> on input line 24.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 22.
+(Font)              <6> on input line 24.
 
-Underfull \hbox (badness 10000) in paragraph at lines 17--28
+Underfull \hbox (badness 10000) in paragraph at lines 17--36
 
  []
 
-[2] (./doc_rad_calc.aux) ) 
-Here is how much of TeX's memory you used:
- 1783 strings out of 494880
- 23901 string characters out of 6179601
- 74654 words of memory out of 5000000
- 5095 multiletter control sequences out of 15000+600000
- 8202 words of font info for 29 fonts, out of 8000000 for 9000
- 36 hyphenation exceptions out of 8191
- 41i,6n,25p,279b,195s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
-12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
 
-Output written on doc_rad_calc.pdf (3 pages, 352079 bytes).
+Underfull \hbox (badness 10000) in paragraph at lines 17--36
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--36
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--36
+
+ []
+
+
+Overfull \hbox (11.97365pt too wide) in paragraph at lines 37--37
+[]\OT1/cmr/bx/n/17.28 RUNS used for cal-i-bra-tion = SWEEP RUNS
+ []
+
+<runs_screenshot.png, id=16, 1050.92625pt x 648.4225pt>
+File: runs_screenshot.png Graphic file (type png)
+<use runs_screenshot.png>
+Package pdftex.def Info: runs_screenshot.png  used on input line 40.
+(pdftex.def)             Requested size: 467.99881pt x 288.75983pt.
+
+Overfull \hbox (77.99881pt too wide) in paragraph at lines 40--41
+ [] 
+ []
+
+[2]
+Underfull \hbox (badness 10000) in paragraph at lines 44--52
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 44--52
+
+ []
+
+<tracking_upstreamGLAD.png, id=22, 1606.0pt x 1436.36626pt>
+File: tracking_upstreamGLAD.png Graphic file (type png)
+<use tracking_upstreamGLAD.png>
+Package pdftex.def Info: tracking_upstreamGLAD.png  used on input line 57.
+(pdftex.def)             Requested size: 467.99881pt x 418.55193pt.
+
+Overfull \hbox (77.99881pt too wide) in paragraph at lines 57--58
+ [] 
+ []
+
+[3 <./runs_screenshot.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 59--67
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 59--67
+
+ []
+
+[4 <./tracking_upstreamGLAD.png>]
+<tracking_GLAD.png, id=31, 1606.0pt x 1085.05376pt>
+File: tracking_GLAD.png Graphic file (type png)
+<use tracking_GLAD.png>
+Package pdftex.def Info: tracking_GLAD.png  used on input line 69.
+(pdftex.def)             Requested size: 467.99881pt x 316.18073pt.
+
+Overfull \hbox (77.99881pt too wide) in paragraph at lines 69--70
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 73--76
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 73--76
+
+ []
+
+[5 <./tracking_GLAD.png>]
+
+LaTeX Warning: Command \textunderscore invalid in math mode on input line 83.
+
+
+LaTeX Warning: Command \textunderscore invalid in math mode on input line 83.
+
+
+LaTeX Warning: Command \textunderscore invalid in math mode on input line 86.
+
+
+LaTeX Warning: Command \textunderscore invalid in math mode on input line 86.
+
+
+LaTeX Warning: Command \textunderscore invalid in math mode on input line 86.
+
+
+LaTeX Warning: Command \textunderscore invalid in math mode on input line 86.
+
+
+LaTeX Warning: Command \textunderscore invalid in math mode on input line 86.
+
+
+LaTeX Warning: Command \textunderscore invalid in math mode on input line 86.
+
+
+LaTeX Warning: Command \textunderscore invalid in math mode on input line 86.
+
+
+LaTeX Warning: Command \textunderscore invalid in math mode on input line 86.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 82--93
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 82--93
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 82--93
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 82--93
+
+ []
+
+<tracking_downstreamGLAD.png, id=36, 380.1402pt x 267.68808pt>
+File: tracking_downstreamGLAD.png Graphic file (type png)
+<use tracking_downstreamGLAD.png>
+Package pdftex.def Info: tracking_downstreamGLAD.png  used on input line 95.
+(pdftex.def)             Requested size: 467.99881pt x 329.5689pt.
+
+Overfull \hbox (77.99881pt too wide) in paragraph at lines 95--96
+ [] 
+ []
+
+[6]
+Underfull \hbox (badness 10000) in paragraph at lines 97--114
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 97--114
+
+ []
+
+
+Overfull \hbox (6.67099pt too wide) in paragraph at lines 97--114
+\OT1/cmr/m/n/12 un-til the in-ter-sec-tion with the TofW ( mid-dle po-si-tion o
+f the ToFWall zToFW$=
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 97--114
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 97--114
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 97--114
+
+ []
+
+[7 <./tracking_downstreamGLAD.png>] [8] (./doc_rad_calc.aux) ) 
+Here is how much of TeX's memory you used:
+ 1806 strings out of 494880
+ 24464 string characters out of 6179601
+ 77679 words of memory out of 5000000
+ 5114 multiletter control sequences out of 15000+600000
+ 8808 words of font info for 31 fonts, out of 8000000 for 9000
+ 36 hyphenation exceptions out of 8191
+ 41i,7n,25p,398b,195s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/font
+s/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb>
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/
+share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/t
+exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on doc_rad_calc.pdf (9 pages, 901338 bytes).
 PDF statistics:
- 34 PDF objects out of 1000 (max. 8388607)
- 21 compressed objects within 1 object stream
+ 94 PDF objects out of 1000 (max. 8388607)
+ 59 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 11 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 31 words of extra memory for PDF output out of 10000 (max. 10000000)
 
