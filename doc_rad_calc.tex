@@ -3,6 +3,7 @@
 \usepackage[pdftex]{graphicx}
 \usepackage{xspace}
 \usepackage{hyperref}
+\usepackage{fullpage}
 \hypersetup{
     colorlinks=true,
     linkcolor=blue,
@@ -18,8 +19,8 @@
 \maketitle
 \end{titlepage}
 \subsection{The Setup}
-\includegraphics[width=1.2\textwidth]{mes_wixh.png}
-\includegraphics[width=1.2\textwidth]{SETUP_around_Target.png}
+\includegraphics[width=1.0\textwidth]{mes_wixh.png}
+\includegraphics[width=1.0\textwidth]{SETUP_around_Target.png}
 \section{Geometry and relative position of the detectors in the beam direction}
 Here, the positions are given for the s444 and s467 experiments\\
 \\
@@ -44,7 +45,7 @@ Positions of the TOFWPads:\\
 \section{RUNS used for calibration = SWEEP RUNS without target}
 
 \begin{center}
-	\includegraphics[width=1.2\textwidth]{runs_screenshot.png}
+	\includegraphics[width=1.0\textwidth]{runs_screenshot.png}
 \end{center}
 
 \subsubsection{Other RUNS used for various checks:}
@@ -61,7 +62,7 @@ RUN 75: 21.98mm C target\\
 \subsection{The "Kickplane" method}
 \subsubsection{From MW0 to the entrance of GLAD, the ion is following a straight line}\label{sssec:num1}
 \begin{center}
-	\includegraphics[width=1.2\textwidth]{tracking_upstreamGLAD.png}
+	\includegraphics[width=1.0\textwidth]{tracking_upstreamGLAD.png}
 \end{center}
 \textbf{The straight line trajectory from MW0 to  entrance before glad is defined by:}\\
 \textbf{$\Rightarrow$ one absolute value before GLAD}\\
@@ -73,7 +74,7 @@ Angle obtained from comining MWPC1 and MWPC2\\
 (to get higher precision the drift time in TWIM MUSIC could be used)\\
 \subsubsection{From entrance to the exit of GLAD, the effective trajectory is circular}
 \begin{center}
-	\includegraphics[width=1.2\textwidth]{tracking_GLAD.png}
+	\includegraphics[width=1.0\textwidth]{tracking_GLAD.png}
 \end{center}
 \textbf{The circular trajectory is defined by:\\
 $\Rightarrow$ one absolute position before GLAD B and angle theta\textunderscore in (see: \ref{sssec:num1})\\
@@ -99,7 +100,7 @@ $\omega = 2*\Bigg|\arcsin\Big[\frac{BD}{2\cdot\rho}\Big] \Bigg|$\\
 with BD = length of the BD segment\\
 \subsubsection{After GLAD up to the TOFW, the trajectory is a straight line}
 \begin{center}
-	\includegraphics[width=1.2\textwidth]{tracking_downstreamGLAD.png}
+	\includegraphics[width=1.0\textwidth]{tracking_downstreamGLAD.png}
 \end{center}
 \textbf{The straight line trajectory from D to E is definded by:}\\
 \\
@@ -131,7 +132,7 @@ For the "Fit-Track" method the assumption that the kickpoint C lies on the symme
 \item Find the intersection of the abscissa. The corresponding theta\textunderscore out value is now the corrected one which should be used for the calculation of the radius.
 \end{enumerate}
 \begin{center}
-	\includegraphics[width=1.2\textwidth]{tracking_alg_ALADIN_s.png}
+	\includegraphics[width=1.0\textwidth]{tracking_alg_ALADIN_s.png}
 \end{center}
 \begin{center}
 	\includegraphics[width=0.5\textwidth]{theta_out_vs_d.png}
@@ -157,6 +158,17 @@ $\rho$ = $\frac{\textrm{L\textunderscore eff}}{2\cdot\sin\left(\frac{theta\textu
 \section{Plots}
 In this section all the plots for the various track finding algorithms are presented. For the calculation of the theta\textunderscore in angle MWPC1 and MWPC2 are used. Alternatively MWPC0 and MWPC2 could be used, to get a longer lever arm (work in progress ...).\\
 \subsection{MWPC1 vs MWPC2 - x position}
+\subsection{MW0 vs MW2- x position }
+\subsection{MW1 vs MW3 - x position}
+\subsection{theta\textunderscore out vs MW3- x position }
+\subsection{theta\textunderscore in vs MW3 - x position}
+\subsection{theta\textunderscore in+theta\textunderscore out vs MW3- x position }
+\subsection{theta\textunderscore in vs Radius}
+\subsection{theta\textunderscore out vs Radius}
+\subsection{theta\textunderscore in vs theta\textunderscore out}
+\subsection{MW3 vs Radius - x position}
+\subsection{MW2 vs Radius - x position}
+
 
 
 \end{document}

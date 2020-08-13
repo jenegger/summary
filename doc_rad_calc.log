@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.7.31)  10 AUG 2020 17:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.7.31)  13 AUG 2020 15:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -483,25 +483,29 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip43
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 11.
+(/usr/share/texlive/texmf-dist/tex/latex/preprint/fullpage.sty
+Package: fullpage 1999/02/23 1.1 (PWD)
+\FP@margin=\skip44
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 12.
 
 (./doc_rad_calc.aux)
 \openout1 = `doc_rad_calc.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -543,7 +547,7 @@ File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: pdftex.def on input line 147.
 )
-Package hyperref Info: Link coloring ON on input line 16.
+Package hyperref Info: Link coloring ON on input line 17.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -553,345 +557,274 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count103
 )
-LaTeX Info: Redefining \ref on input line 16.
-LaTeX Info: Redefining \pageref on input line 16.
-LaTeX Info: Redefining \nameref on input line 16.
+LaTeX Info: Redefining \ref on input line 17.
+LaTeX Info: Redefining \pageref on input line 17.
+LaTeX Info: Redefining \nameref on input line 17.
 
 (./doc_rad_calc.out) (./doc_rad_calc.out)
 \@outlinefile=\write3
 \openout3 = `doc_rad_calc.out'.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <14.4> on input line 19.
+(Font)              <14.4> on input line 20.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 19.
+(Font)              <7> on input line 20.
  [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-<mes_wixh.png, id=59, 1441.385pt x 811.03pt>
+<mes_wixh.png, id=107, 1441.385pt x 811.03pt>
 File: mes_wixh.png Graphic file (type png)
 <use mes_wixh.png>
-Package pdftex.def Info: mes_wixh.png  used on input line 21.
-(pdftex.def)             Requested size: 467.99881pt x 263.32175pt.
-<SETUP_around_Target.png, id=61, 1927.2pt x 1084.05pt>
+Package pdftex.def Info: mes_wixh.png  used on input line 22.
+(pdftex.def)             Requested size: 469.75502pt x 264.31177pt.
+<SETUP_around_Target.png, id=109, 1927.2pt x 1084.05pt>
 File: SETUP_around_Target.png Graphic file (type png)
 <use SETUP_around_Target.png>
-Package pdftex.def Info: SETUP_around_Target.png  used on input line 22.
-(pdftex.def)             Requested size: 467.99881pt x 263.23744pt.
+Package pdftex.def Info: SETUP_around_Target.png  used on input line 23.
+(pdftex.def)             Requested size: 469.75502pt x 264.22992pt.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 32.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 32.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 32.
 
-Overfull \hbox (77.99881pt too wide) in paragraph at lines 21--23
-[]
+Underfull \hbox (badness 10000) in paragraph at lines 25--44
+
  []
 
 
-Overfull \hbox (77.99881pt too wide) in paragraph at lines 21--23
-[] 
+Underfull \hbox (badness 10000) in paragraph at lines 25--44
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--44
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--44
+
  []
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.23 \section
-             {Geometry and relative position of the detectors in the beam di...
-[1]
-Overfull \vbox (2.60918pt too high) has occurred while \output is active []
-
-
-[2 <./mes_wixh.png> <./SETUP_around_Target.png>]
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 31.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 31.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 31.
-
-Underfull \hbox (badness 10000) in paragraph at lines 24--43
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 24--43
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 24--43
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 24--43
-
- []
-
-
-Overfull \hbox (11.97365pt too wide) in paragraph at lines 44--44
-[]\OT1/cmr/bx/n/17.28 RUNS used for cal-i-bra-tion = SWEEP RUNS
- []
-
-<runs_screenshot.png, id=71, 1050.92625pt x 648.4225pt>
+l.44 
+      [1 <./mes_wixh.png> <./SETUP_around_Target.png>]
+<runs_screenshot.png, id=115, 1050.92625pt x 648.4225pt>
 File: runs_screenshot.png Graphic file (type png)
 <use runs_screenshot.png>
-Package pdftex.def Info: runs_screenshot.png  used on input line 47.
-(pdftex.def)             Requested size: 467.99881pt x 288.75983pt.
-
-Overfull \hbox (77.99881pt too wide) in paragraph at lines 47--48
- [] 
- []
-
-[3]
+Package pdftex.def Info: runs_screenshot.png  used on input line 48.
+(pdftex.def)             Requested size: 469.75502pt x 289.83829pt.
+ [2]
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 50.
+(hyperref)                than one, level fixed on input line 51.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 51--59
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 51--59
+Underfull \hbox (badness 10000) in paragraph at lines 52--60
 
  []
 
-<tracking_upstreamGLAD.png, id=78, 1606.0pt x 1436.36626pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 52--60
+
+ []
+
+<tracking_upstreamGLAD.png, id=122, 1606.0pt x 1436.36626pt>
 File: tracking_upstreamGLAD.png Graphic file (type png)
 <use tracking_upstreamGLAD.png>
-Package pdftex.def Info: tracking_upstreamGLAD.png  used on input line 64.
-(pdftex.def)             Requested size: 467.99881pt x 418.55193pt.
-
-Overfull \hbox (77.99881pt too wide) in paragraph at lines 64--65
- [] 
- []
-
-[4 <./runs_screenshot.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 66--74
+Package pdftex.def Info: tracking_upstreamGLAD.png  used on input line 65.
+(pdftex.def)             Requested size: 469.75502pt x 420.12996pt.
+[3 <./runs_screenshot.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 67--75
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 66--74
+Underfull \hbox (badness 10000) in paragraph at lines 67--75
 
  []
 
-[5 <./tracking_upstreamGLAD.png>]
-<tracking_GLAD.png, id=89, 1606.0pt x 1085.05376pt>
+[4 <./tracking_upstreamGLAD.png>]
+<tracking_GLAD.png, id=133, 1606.0pt x 1085.05376pt>
 File: tracking_GLAD.png Graphic file (type png)
 <use tracking_GLAD.png>
-Package pdftex.def Info: tracking_GLAD.png  used on input line 76.
-(pdftex.def)             Requested size: 467.99881pt x 316.18073pt.
+Package pdftex.def Info: tracking_GLAD.png  used on input line 77.
+(pdftex.def)             Requested size: 469.75502pt x 317.3728pt.
 
-Overfull \hbox (77.99881pt too wide) in paragraph at lines 76--77
- [] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 80--83
+Underfull \hbox (badness 10000) in paragraph at lines 81--84
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 80--83
+Underfull \hbox (badness 10000) in paragraph at lines 81--84
 
  []
 
-[6 <./tracking_GLAD.png>]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 89.
+(Font)              <5> on input line 90.
+
+LaTeX Warning: Command \textunderscore invalid in math mode on input line 91.
 
 
-LaTeX Warning: Command \textunderscore invalid in math mode on input line 90.
+LaTeX Warning: Command \textunderscore invalid in math mode on input line 91.
 
 
-LaTeX Warning: Command \textunderscore invalid in math mode on input line 90.
+LaTeX Warning: Command \textunderscore invalid in math mode on input line 94.
 
 
-LaTeX Warning: Command \textunderscore invalid in math mode on input line 93.
+LaTeX Warning: Command \textunderscore invalid in math mode on input line 94.
 
 
-LaTeX Warning: Command \textunderscore invalid in math mode on input line 93.
+LaTeX Warning: Command \textunderscore invalid in math mode on input line 94.
 
 
-LaTeX Warning: Command \textunderscore invalid in math mode on input line 93.
+LaTeX Warning: Command \textunderscore invalid in math mode on input line 94.
 
 
-LaTeX Warning: Command \textunderscore invalid in math mode on input line 93.
+LaTeX Warning: Command \textunderscore invalid in math mode on input line 94.
 
 
-LaTeX Warning: Command \textunderscore invalid in math mode on input line 93.
+LaTeX Warning: Command \textunderscore invalid in math mode on input line 94.
 
 
-LaTeX Warning: Command \textunderscore invalid in math mode on input line 93.
+LaTeX Warning: Command \textunderscore invalid in math mode on input line 94.
 
 
-LaTeX Warning: Command \textunderscore invalid in math mode on input line 93.
+LaTeX Warning: Command \textunderscore invalid in math mode on input line 94.
 
 
-LaTeX Warning: Command \textunderscore invalid in math mode on input line 93.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 89--100
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 89--100
+Underfull \hbox (badness 10000) in paragraph at lines 90--101
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 89--100
+Underfull \hbox (badness 10000) in paragraph at lines 90--101
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 89--100
+Underfull \hbox (badness 10000) in paragraph at lines 90--101
 
  []
 
-<tracking_downstreamGLAD.png, id=98, 380.1402pt x 267.68808pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 90--101
+
+ []
+
+[5 <./tracking_GLAD.png>]
+<tracking_downstreamGLAD.png, id=145, 380.1402pt x 267.68808pt>
 File: tracking_downstreamGLAD.png Graphic file (type png)
 <use tracking_downstreamGLAD.png>
-Package pdftex.def Info: tracking_downstreamGLAD.png  used on input line 102.
-(pdftex.def)             Requested size: 467.99881pt x 329.5689pt.
+Package pdftex.def Info: tracking_downstreamGLAD.png  used on input line 103.
+(pdftex.def)             Requested size: 469.75502pt x 330.80244pt.
 
-Overfull \hbox (77.99881pt too wide) in paragraph at lines 102--103
- [] 
- []
-
-[7]
-Underfull \hbox (badness 10000) in paragraph at lines 104--121
+Underfull \hbox (badness 10000) in paragraph at lines 105--122
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 104--121
+Underfull \hbox (badness 10000) in paragraph at lines 105--122
 
  []
 
 
-Overfull \hbox (6.67099pt too wide) in paragraph at lines 104--121
-\OT1/cmr/m/n/12 un-til the in-ter-sec-tion with the TofW ( mid-dle po-si-tion o
-f the ToFWall zToFW$=
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 104--121
+Underfull \hbox (badness 10000) in paragraph at lines 105--122
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 104--121
+Underfull \hbox (badness 10000) in paragraph at lines 105--122
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 104--121
+Underfull \hbox (badness 10000) in paragraph at lines 105--122
 
  []
 
-[8 <./tracking_downstreamGLAD.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 123--123
-[][][]\OT1/cmr/m/n/10 This al-go-rithm is mo-ti-vated from [][]$\OT1/cmtt/m/n/1
-0 https : / / www . blogs . uni-[]mainz . de /
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 123--124
+[6 <./tracking_downstreamGLAD.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 124--125
 
  []
 
-[9]
-<tracking_alg_ALADIN_s.png, id=138, 437.66711pt x 266.24268pt>
+<tracking_alg_ALADIN_s.png, id=165, 437.66711pt x 266.24268pt>
 File: tracking_alg_ALADIN_s.png Graphic file (type png)
 <use tracking_alg_ALADIN_s.png>
-Package pdftex.def Info: tracking_alg_ALADIN_s.png  used on input line 134.
-(pdftex.def)             Requested size: 467.99881pt x 284.69809pt.
-
-Overfull \hbox (77.99881pt too wide) in paragraph at lines 134--135
- [] 
- []
-
-<theta_out_vs_d.png, id=139, 438.10074pt x 395.17236pt>
+Package pdftex.def Info: tracking_alg_ALADIN_s.png  used on input line 135.
+(pdftex.def)             Requested size: 469.75502pt x 285.76654pt.
+[7]
+<theta_out_vs_d.png, id=180, 438.10074pt x 395.17236pt>
 File: theta_out_vs_d.png Graphic file (type png)
 <use theta_out_vs_d.png>
-Package pdftex.def Info: theta_out_vs_d.png  used on input line 137.
-(pdftex.def)             Requested size: 195.0pt x 175.89034pt.
+Package pdftex.def Info: theta_out_vs_d.png  used on input line 138.
+(pdftex.def)             Requested size: 234.8775pt x 211.86433pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 143--149
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 143--149
+Underfull \hbox (badness 10000) in paragraph at lines 144--150
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 143--149
+Underfull \hbox (badness 10000) in paragraph at lines 144--150
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 143--149
+Underfull \hbox (badness 10000) in paragraph at lines 144--150
 
  []
 
-[10 <./tracking_alg_ALADIN_s.png> <./theta_out_vs_d.png>]
 
-LaTeX Warning: Command \textunderscore invalid in math mode on input line 150.
+Underfull \hbox (badness 10000) in paragraph at lines 144--150
+
+ []
+
+[8 <./tracking_alg_ALADIN_s.png> <./theta_out_vs_d.png>]
+
+LaTeX Warning: Command \textunderscore invalid in math mode on input line 151.
 
 
-LaTeX Warning: Command \textunderscore invalid in math mode on input line 150.
+LaTeX Warning: Command \textunderscore invalid in math mode on input line 151.
 
 
-LaTeX Warning: Command \textunderscore invalid in math mode on input line 150.
+LaTeX Warning: Command \textunderscore invalid in math mode on input line 151.
 
 
-LaTeX Warning: Command \textunderscore invalid in math mode on input line 150.
+LaTeX Warning: Command \textunderscore invalid in math mode on input line 151.
 
-<theta_out_corr_alg.png, id=147, 197.15256pt x 149.74344pt>
+<theta_out_corr_alg.png, id=188, 197.15256pt x 149.74344pt>
 File: theta_out_corr_alg.png Graphic file (type png)
 <use theta_out_corr_alg.png>
-Package pdftex.def Info: theta_out_corr_alg.png  used on input line 152.
-(pdftex.def)             Requested size: 272.99881pt x 207.3773pt.
+Package pdftex.def Info: theta_out_corr_alg.png  used on input line 153.
+(pdftex.def)             Requested size: 328.82707pt x 249.7873pt.
 
-Overfull \hbox (20.31473pt too wide) in paragraph at lines 155--155
-[]\OT1/cmr/bx/n/14.4 Optional method: Kick-plane method, set-ting theta[]in
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 158--159
+Underfull \hbox (badness 10000) in paragraph at lines 159--160
 
  []
 
-[11 <./theta_out_corr_alg.png>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 162.
- [12]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 162.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 174.
+[9 <./theta_out_corr_alg.png>] [10]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 174.
  (./doc_rad_calc.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 162.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 162.
-
-
-Package rerunfilecheck Warning: File `doc_rad_calc.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `doc_rad_calc.out':
-(rerunfilecheck)             Before: CABC4C62ED4A14905215066E6EF1E027;1138
-(rerunfilecheck)             After:  087F101CADCA6B7749002A65D5E2C6BA;1256.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 162.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 174.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 174.
+Package rerunfilecheck Info: File `doc_rad_calc.out' has not changed.
+(rerunfilecheck)             Checksum: 6ED38998A57F28F8E408674AE1701041;2033.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 174.
  ) 
 Here is how much of TeX's memory you used:
- 5487 strings out of 494880
- 80049 string characters out of 6179601
- 159322 words of memory out of 5000000
- 8729 multiletter control sequences out of 15000+600000
+ 5527 strings out of 494880
+ 80723 string characters out of 6179601
+ 159379 words of memory out of 5000000
+ 8757 multiletter control sequences out of 15000+600000
  8976 words of font info for 32 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 28i,8n,30p,398b,402s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 28i,8n,30p,398b,386s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texl
@@ -907,10 +840,10 @@ usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/sh
 are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/tex
 live/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/te
 xmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on doc_rad_calc.pdf (13 pages, 1222873 bytes).
+Output written on doc_rad_calc.pdf (11 pages, 1224421 bytes).
 PDF statistics:
- 224 PDF objects out of 1000 (max. 8388607)
- 174 compressed objects within 2 object streams
- 40 named destinations out of 1000 (max. 500000)
- 142 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 263 PDF objects out of 1000 (max. 8388607)
+ 214 compressed objects within 3 object streams
+ 48 named destinations out of 1000 (max. 500000)
+ 238 words of extra memory for PDF output out of 10000 (max. 10000000)
 
