@@ -554,6 +554,38 @@ In this section all the plots for the various track finding algorithms are prese
 \FloatBarrier
 \clearpage
 
+\section{Relative momentum resolution "Advanced Fit-Track-Method"}
+
+The momentum resolution is calculated from the radius-calculation as $\rho \sim p$. From that follows:\\
+\\
+$\frac{\Delta p}{p} = \frac{\Delta\rho}{\rho}$
+\\
+For the evaluation of the resolutions for the various sweep runs the two dimensional plot "MWPC3.fX versus GLAD Radius" is projected on the abscissa. The resulting 1D plot is fitted with a gaussian. The mean value from the fit corresponds to $\rho$ and the $\sigma$ to $\Delta\rho$ respectively.\\
+\\
+\begin{tabular}{|c|c|c|c|}
+\hline
+Runnr. & $\overline{\rho}$ & $\sigma$ & rel. resolution \\
+\hline
+39     &         6.41710e+03    &     2.51358e+01    &     3.917e-03\\
+40     &         6.40432e+03    &     1.39878e+01    &     2.184e-03\\
+42     &         6.15987e+03    &     1.41755e+01    &     2.301e-03\\
+44     &         5.79263e+03    &     1.28877e+01    &     2.224e-03\\
+46     &         5.46248e+03    &     1.22759e+01    &     2.247e-03\\
+48     &         5.16684e+03    &     1.03795e+01    &     2.009e-03\\
+51     &         4.90002e+03    &     9.92633e+00    &     2.026e-03\\
+53     &         6.66682e+03    &     1.70937e+01    &     2.564e-03\\
+55     &         7.15478e+03    &     1.76967e+01    &     2.473e-03\\
+57     &         7.71594e+03    &     2.15223e+01    &     2.789e-03\\
+59     &         8.37120e+03    &     2.47619e+01    &     2.957e-03\\
+61     &         9.13984e+03    &     2.95353e+01    &     3.231e-03\\
+\hline
+
+\end{tabular}
+\\
+\\
+\newline
+With mean relative resolution $\frac{\Delta\rho}{\rho}$ = 2.69e-03.
+
 
 
 \end{document}

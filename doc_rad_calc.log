@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.7.31)  7 SEP 2020 14:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.7.31)  7 SEP 2020 16:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -882,12 +882,12 @@ LaTeX Font Info:    External font `cmex10' loaded for size
  [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-<mes_wixh.png, id=107, 1441.385pt x 811.03pt>
+<mes_wixh.png, id=111, 1441.385pt x 811.03pt>
 File: mes_wixh.png Graphic file (type png)
 <use mes_wixh.png>
 Package pdftex.def Info: mes_wixh.png  used on input line 24.
 (pdftex.def)             Requested size: 469.75502pt x 264.31177pt.
-<SETUP_around_Target.png, id=109, 1927.2pt x 1084.05pt>
+<SETUP_around_Target.png, id=113, 1927.2pt x 1084.05pt>
 File: SETUP_around_Target.png Graphic file (type png)
 <use SETUP_around_Target.png>
 Package pdftex.def Info: SETUP_around_Target.png  used on input line 25.
@@ -924,7 +924,7 @@ been already used, duplicate ignored
                    \relax 
 l.46 
       [1 <./mes_wixh.png> <./SETUP_around_Target.png>]
-<runs_screenshot.png, id=115, 1050.92625pt x 648.4225pt>
+<runs_screenshot.png, id=119, 1050.92625pt x 648.4225pt>
 File: runs_screenshot.png Graphic file (type png)
 <use runs_screenshot.png>
 Package pdftex.def Info: runs_screenshot.png  used on input line 50.
@@ -944,7 +944,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 54--62
 
  []
 
-<tracking_upstreamGLAD.png, id=122, 1606.0pt x 1436.36626pt>
+<tracking_upstreamGLAD.png, id=126, 1606.0pt x 1436.36626pt>
 File: tracking_upstreamGLAD.png Graphic file (type png)
 <use tracking_upstreamGLAD.png>
 Package pdftex.def Info: tracking_upstreamGLAD.png  used on input line 67.
@@ -960,7 +960,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 69--77
  []
 
 [4 <./tracking_upstreamGLAD.png>]
-<tracking_GLAD.png, id=133, 1606.0pt x 1085.05376pt>
+<tracking_GLAD.png, id=137, 1606.0pt x 1085.05376pt>
 File: tracking_GLAD.png Graphic file (type png)
 <use tracking_GLAD.png>
 Package pdftex.def Info: tracking_GLAD.png  used on input line 79.
@@ -1028,7 +1028,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 92--103
  []
 
 [5 <./tracking_GLAD.png>]
-<tracking_downstreamGLAD.png, id=145, 380.1402pt x 267.68808pt>
+<tracking_downstreamGLAD.png, id=149, 380.1402pt x 267.68808pt>
 File: tracking_downstreamGLAD.png Graphic file (type png)
 <use tracking_downstreamGLAD.png>
 Package pdftex.def Info: tracking_downstreamGLAD.png  used on input line 105.
@@ -1063,13 +1063,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 126--127
 
  []
 
-<tracking_alg_ALADIN_s.png, id=165, 437.66711pt x 266.24268pt>
+<tracking_alg_ALADIN_s.png, id=169, 437.66711pt x 266.24268pt>
 File: tracking_alg_ALADIN_s.png Graphic file (type png)
 <use tracking_alg_ALADIN_s.png>
 Package pdftex.def Info: tracking_alg_ALADIN_s.png  used on input line 137.
 (pdftex.def)             Requested size: 469.75502pt x 285.76654pt.
 [7]
-<theta_out_vs_d.png, id=180, 438.10074pt x 395.17236pt>
+<theta_out_vs_d.png, id=184, 438.10074pt x 395.17236pt>
 File: theta_out_vs_d.png Graphic file (type png)
 <use theta_out_vs_d.png>
 Package pdftex.def Info: theta_out_vs_d.png  used on input line 140.
@@ -1107,7 +1107,7 @@ LaTeX Warning: Command \textunderscore invalid in math mode on input line 153.
 
 LaTeX Warning: Command \textunderscore invalid in math mode on input line 153.
 
-<theta_out_corr_alg.png, id=188, 197.15256pt x 149.74344pt>
+<theta_out_corr_alg.png, id=192, 197.15256pt x 149.74344pt>
 File: theta_out_corr_alg.png Graphic file (type png)
 <use theta_out_corr_alg.png>
 Package pdftex.def Info: theta_out_corr_alg.png  used on input line 155.
@@ -1148,23 +1148,23 @@ Underfull \hbox (badness 10000) in paragraph at lines 169--170
  []
 
 [9 <./theta_out_corr_alg.png>]
-<plot_imgs/mw2_mw1_get_centr.png, id=194, 1019.81pt x 812.03375pt>
+<plot_imgs/mw2_mw1_get_centr.png, id=198, 1019.81pt x 812.03375pt>
 File: plot_imgs/mw2_mw1_get_centr.png Graphic file (type png)
 <use plot_imgs/mw2_mw1_get_centr.png>
 Package pdftex.def Info: plot_imgs/mw2_mw1_get_centr.png  used on input line 17
 6.
 (pdftex.def)             Requested size: 211.3883pt x 168.3142pt.
-<plot_imgs/mw2_mw1_corr.png, id=195, 1019.81pt x 812.03375pt>
+<plot_imgs/mw2_mw1_corr.png, id=199, 1019.81pt x 812.03375pt>
 File: plot_imgs/mw2_mw1_corr.png Graphic file (type png)
 <use plot_imgs/mw2_mw1_corr.png>
 Package pdftex.def Info: plot_imgs/mw2_mw1_corr.png  used on input line 183.
 (pdftex.def)             Requested size: 211.3883pt x 168.3142pt.
-<plot_imgs/mw2_mw1_fit.png, id=196, 1019.81pt x 812.03375pt>
+<plot_imgs/mw2_mw1_fit.png, id=200, 1019.81pt x 812.03375pt>
 File: plot_imgs/mw2_mw1_fit.png Graphic file (type png)
 <use plot_imgs/mw2_mw1_fit.png>
 Package pdftex.def Info: plot_imgs/mw2_mw1_fit.png  used on input line 190.
 (pdftex.def)             Requested size: 211.3883pt x 168.3142pt.
-<plot_imgs/mw2_mw1_last.png, id=197, 1019.81pt x 812.03375pt>
+<plot_imgs/mw2_mw1_last.png, id=201, 1019.81pt x 812.03375pt>
 File: plot_imgs/mw2_mw1_last.png Graphic file (type png)
 <use plot_imgs/mw2_mw1_last.png>
 Package pdftex.def Info: plot_imgs/mw2_mw1_last.png  used on input line 197.
@@ -1181,23 +1181,23 @@ Overfull \hbox (2.61107pt too wide) in paragraph at lines 173--201
 
 [10 <./plot_imgs/mw2_mw1_get_centr.png> <./plot_imgs/mw2_mw1_corr.png> <./plot_
 imgs/mw2_mw1_fit.png> <./plot_imgs/mw2_mw1_last.png>]
-<plot_imgs/mw2_mw0_get_centr.png, id=203, 1019.81pt x 812.03375pt>
+<plot_imgs/mw2_mw0_get_centr.png, id=207, 1019.81pt x 812.03375pt>
 File: plot_imgs/mw2_mw0_get_centr.png Graphic file (type png)
 <use plot_imgs/mw2_mw0_get_centr.png>
 Package pdftex.def Info: plot_imgs/mw2_mw0_get_centr.png  used on input line 21
 1.
 (pdftex.def)             Requested size: 211.3883pt x 168.3142pt.
-<plot_imgs/mw2_mw0_corr.png, id=204, 1019.81pt x 812.03375pt>
+<plot_imgs/mw2_mw0_corr.png, id=208, 1019.81pt x 812.03375pt>
 File: plot_imgs/mw2_mw0_corr.png Graphic file (type png)
 <use plot_imgs/mw2_mw0_corr.png>
 Package pdftex.def Info: plot_imgs/mw2_mw0_corr.png  used on input line 218.
 (pdftex.def)             Requested size: 211.3883pt x 168.3142pt.
-<plot_imgs/mw2_mw0_fit.png, id=205, 1019.81pt x 812.03375pt>
+<plot_imgs/mw2_mw0_fit.png, id=209, 1019.81pt x 812.03375pt>
 File: plot_imgs/mw2_mw0_fit.png Graphic file (type png)
 <use plot_imgs/mw2_mw0_fit.png>
 Package pdftex.def Info: plot_imgs/mw2_mw0_fit.png  used on input line 225.
 (pdftex.def)             Requested size: 211.3883pt x 168.3142pt.
-<plot_imgs/mw2_mw0_last.png, id=206, 1019.81pt x 812.03375pt>
+<plot_imgs/mw2_mw0_last.png, id=210, 1019.81pt x 812.03375pt>
 File: plot_imgs/mw2_mw0_last.png Graphic file (type png)
 <use plot_imgs/mw2_mw0_last.png>
 Package pdftex.def Info: plot_imgs/mw2_mw0_last.png  used on input line 232.
@@ -1216,23 +1216,23 @@ Overfull \hbox (2.61107pt too wide) in paragraph at lines 208--236
 
  <./plot_imgs/mw2_mw0_get_centr.png> <./plot_imgs/mw2_mw0_corr.png> <./plot_img
 s/mw2_mw0_fit.png> <./plot_imgs/mw2_mw0_last.png>]
-<plot_imgs/mw3_mw1_get_centr.png, id=212, 1019.81pt x 812.03375pt>
+<plot_imgs/mw3_mw1_get_centr.png, id=216, 1019.81pt x 812.03375pt>
 File: plot_imgs/mw3_mw1_get_centr.png Graphic file (type png)
 <use plot_imgs/mw3_mw1_get_centr.png>
 Package pdftex.def Info: plot_imgs/mw3_mw1_get_centr.png  used on input line 24
 6.
 (pdftex.def)             Requested size: 211.3883pt x 168.3142pt.
-<plot_imgs/mw3_mw1_corr.png, id=213, 1019.81pt x 812.03375pt>
+<plot_imgs/mw3_mw1_corr.png, id=217, 1019.81pt x 812.03375pt>
 File: plot_imgs/mw3_mw1_corr.png Graphic file (type png)
 <use plot_imgs/mw3_mw1_corr.png>
 Package pdftex.def Info: plot_imgs/mw3_mw1_corr.png  used on input line 253.
 (pdftex.def)             Requested size: 211.3883pt x 168.3142pt.
-<plot_imgs/mw3_mw1_fit.png, id=214, 1019.81pt x 812.03375pt>
+<plot_imgs/mw3_mw1_fit.png, id=218, 1019.81pt x 812.03375pt>
 File: plot_imgs/mw3_mw1_fit.png Graphic file (type png)
 <use plot_imgs/mw3_mw1_fit.png>
 Package pdftex.def Info: plot_imgs/mw3_mw1_fit.png  used on input line 260.
 (pdftex.def)             Requested size: 211.3883pt x 168.3142pt.
-<plot_imgs/mw3_mw1_last.png, id=215, 1019.81pt x 812.03375pt>
+<plot_imgs/mw3_mw1_last.png, id=219, 1019.81pt x 812.03375pt>
 File: plot_imgs/mw3_mw1_last.png Graphic file (type png)
 <use plot_imgs/mw3_mw1_last.png>
 Package pdftex.def Info: plot_imgs/mw3_mw1_last.png  used on input line 267.
@@ -1251,25 +1251,25 @@ Overfull \hbox (2.61107pt too wide) in paragraph at lines 243--271
 
  <./plot_imgs/mw3_mw1_get_centr.png> <./plot_imgs/mw3_mw1_corr.png> <./plot_img
 s/mw3_mw1_fit.png> <./plot_imgs/mw3_mw1_last.png>]
-<plot_imgs/theta_out_mw3_get_centr.png, id=222, 1019.81pt x 812.03375pt>
+<plot_imgs/theta_out_mw3_get_centr.png, id=226, 1019.81pt x 812.03375pt>
 File: plot_imgs/theta_out_mw3_get_centr.png Graphic file (type png)
 <use plot_imgs/theta_out_mw3_get_centr.png>
 Package pdftex.def Info: plot_imgs/theta_out_mw3_get_centr.png  used on input l
 ine 281.
 (pdftex.def)             Requested size: 211.3883pt x 168.3142pt.
-<plot_imgs/theta_out_mw3_corr.png, id=223, 1019.81pt x 812.03375pt>
+<plot_imgs/theta_out_mw3_corr.png, id=227, 1019.81pt x 812.03375pt>
 File: plot_imgs/theta_out_mw3_corr.png Graphic file (type png)
 <use plot_imgs/theta_out_mw3_corr.png>
 Package pdftex.def Info: plot_imgs/theta_out_mw3_corr.png  used on input line 2
 88.
 (pdftex.def)             Requested size: 211.3883pt x 168.3142pt.
-<plot_imgs/theta_out_mw3_fit.png, id=224, 1019.81pt x 812.03375pt>
+<plot_imgs/theta_out_mw3_fit.png, id=228, 1019.81pt x 812.03375pt>
 File: plot_imgs/theta_out_mw3_fit.png Graphic file (type png)
 <use plot_imgs/theta_out_mw3_fit.png>
 Package pdftex.def Info: plot_imgs/theta_out_mw3_fit.png  used on input line 29
 5.
 (pdftex.def)             Requested size: 211.3883pt x 168.3142pt.
-<plot_imgs/theta_out_mw3_last.png, id=225, 1019.81pt x 812.03375pt>
+<plot_imgs/theta_out_mw3_last.png, id=229, 1019.81pt x 812.03375pt>
 File: plot_imgs/theta_out_mw3_last.png Graphic file (type png)
 <use plot_imgs/theta_out_mw3_last.png>
 Package pdftex.def Info: plot_imgs/theta_out_mw3_last.png  used on input line 3
@@ -1289,25 +1289,25 @@ Overfull \hbox (2.61107pt too wide) in paragraph at lines 278--306
 
  <./plot_imgs/theta_out_mw3_get_centr.png> <./plot_imgs/theta_out_mw3_corr.png>
  <./plot_imgs/theta_out_mw3_fit.png> <./plot_imgs/theta_out_mw3_last.png>]
-<plot_imgs/theta_in_mw3_get_centr.png, id=231, 1019.81pt x 812.03375pt>
+<plot_imgs/theta_in_mw3_get_centr.png, id=235, 1019.81pt x 812.03375pt>
 File: plot_imgs/theta_in_mw3_get_centr.png Graphic file (type png)
 <use plot_imgs/theta_in_mw3_get_centr.png>
 Package pdftex.def Info: plot_imgs/theta_in_mw3_get_centr.png  used on input li
 ne 316.
 (pdftex.def)             Requested size: 211.3883pt x 168.3142pt.
-<plot_imgs/theta_in_mw3_corr.png, id=232, 1019.81pt x 812.03375pt>
+<plot_imgs/theta_in_mw3_corr.png, id=236, 1019.81pt x 812.03375pt>
 File: plot_imgs/theta_in_mw3_corr.png Graphic file (type png)
 <use plot_imgs/theta_in_mw3_corr.png>
 Package pdftex.def Info: plot_imgs/theta_in_mw3_corr.png  used on input line 32
 3.
 (pdftex.def)             Requested size: 211.3883pt x 168.3142pt.
-<plot_imgs/theta_in_mw3_fit.png, id=233, 1019.81pt x 812.03375pt>
+<plot_imgs/theta_in_mw3_fit.png, id=237, 1019.81pt x 812.03375pt>
 File: plot_imgs/theta_in_mw3_fit.png Graphic file (type png)
 <use plot_imgs/theta_in_mw3_fit.png>
 Package pdftex.def Info: plot_imgs/theta_in_mw3_fit.png  used on input line 330
 .
 (pdftex.def)             Requested size: 211.3883pt x 168.3142pt.
-<plot_imgs/theta_in_mw3_last.png, id=234, 1019.81pt x 812.03375pt>
+<plot_imgs/theta_in_mw3_last.png, id=238, 1019.81pt x 812.03375pt>
 File: plot_imgs/theta_in_mw3_last.png Graphic file (type png)
 <use plot_imgs/theta_in_mw3_last.png>
 Package pdftex.def Info: plot_imgs/theta_in_mw3_last.png  used on input line 33
@@ -1327,26 +1327,26 @@ Overfull \hbox (2.61107pt too wide) in paragraph at lines 313--341
 
  <./plot_imgs/theta_in_mw3_get_centr.png> <./plot_imgs/theta_in_mw3_corr.png> <
 ./plot_imgs/theta_in_mw3_fit.png> <./plot_imgs/theta_in_mw3_last.png>]
-<plot_imgs/theta_out_theta_in_mw3_get_centr.png, id=240, 1019.81pt x 812.03375p
+<plot_imgs/theta_out_theta_in_mw3_get_centr.png, id=244, 1019.81pt x 812.03375p
 t>
 File: plot_imgs/theta_out_theta_in_mw3_get_centr.png Graphic file (type png)
 <use plot_imgs/theta_out_theta_in_mw3_get_centr.png>
 Package pdftex.def Info: plot_imgs/theta_out_theta_in_mw3_get_centr.png  used o
 n input line 351.
 (pdftex.def)             Requested size: 211.3883pt x 168.3142pt.
-<plot_imgs/theta_out_theta_in_mw3_corr.png, id=241, 1019.81pt x 812.03375pt>
+<plot_imgs/theta_out_theta_in_mw3_corr.png, id=245, 1019.81pt x 812.03375pt>
 File: plot_imgs/theta_out_theta_in_mw3_corr.png Graphic file (type png)
 <use plot_imgs/theta_out_theta_in_mw3_corr.png>
 Package pdftex.def Info: plot_imgs/theta_out_theta_in_mw3_corr.png  used on inp
 ut line 358.
 (pdftex.def)             Requested size: 211.3883pt x 168.3142pt.
-<plot_imgs/theta_out_theta_in_mw3_fit.png, id=242, 1019.81pt x 812.03375pt>
+<plot_imgs/theta_out_theta_in_mw3_fit.png, id=246, 1019.81pt x 812.03375pt>
 File: plot_imgs/theta_out_theta_in_mw3_fit.png Graphic file (type png)
 <use plot_imgs/theta_out_theta_in_mw3_fit.png>
 Package pdftex.def Info: plot_imgs/theta_out_theta_in_mw3_fit.png  used on inpu
 t line 365.
 (pdftex.def)             Requested size: 211.3883pt x 168.3142pt.
-<plot_imgs/theta_out_theta_in_mw3_last.png, id=243, 1019.81pt x 812.03375pt>
+<plot_imgs/theta_out_theta_in_mw3_last.png, id=247, 1019.81pt x 812.03375pt>
 File: plot_imgs/theta_out_theta_in_mw3_last.png Graphic file (type png)
 <use plot_imgs/theta_out_theta_in_mw3_last.png>
 Package pdftex.def Info: plot_imgs/theta_out_theta_in_mw3_last.png  used on inp
@@ -1367,25 +1367,25 @@ Overfull \hbox (2.61107pt too wide) in paragraph at lines 348--376
  <./plot_imgs/theta_out_theta_in_mw3_get_centr.png> <./plot_imgs/theta_out_thet
 a_in_mw3_corr.png> <./plot_imgs/theta_out_theta_in_mw3_fit.png> <./plot_imgs/th
 eta_out_theta_in_mw3_last.png>]
-<plot_imgs/theta_in_rho_get_centr.png, id=249, 1019.81pt x 812.03375pt>
+<plot_imgs/theta_in_rho_get_centr.png, id=253, 1019.81pt x 812.03375pt>
 File: plot_imgs/theta_in_rho_get_centr.png Graphic file (type png)
 <use plot_imgs/theta_in_rho_get_centr.png>
 Package pdftex.def Info: plot_imgs/theta_in_rho_get_centr.png  used on input li
 ne 386.
 (pdftex.def)             Requested size: 211.3883pt x 168.3142pt.
-<plot_imgs/theta_in_rho_corr.png, id=250, 1019.81pt x 812.03375pt>
+<plot_imgs/theta_in_rho_corr.png, id=254, 1019.81pt x 812.03375pt>
 File: plot_imgs/theta_in_rho_corr.png Graphic file (type png)
 <use plot_imgs/theta_in_rho_corr.png>
 Package pdftex.def Info: plot_imgs/theta_in_rho_corr.png  used on input line 39
 3.
 (pdftex.def)             Requested size: 211.3883pt x 168.3142pt.
-<plot_imgs/theta_in_rho_fit.png, id=251, 1019.81pt x 812.03375pt>
+<plot_imgs/theta_in_rho_fit.png, id=255, 1019.81pt x 812.03375pt>
 File: plot_imgs/theta_in_rho_fit.png Graphic file (type png)
 <use plot_imgs/theta_in_rho_fit.png>
 Package pdftex.def Info: plot_imgs/theta_in_rho_fit.png  used on input line 400
 .
 (pdftex.def)             Requested size: 211.3883pt x 168.3142pt.
-<plot_imgs/theta_in_rho_last.png, id=252, 1019.81pt x 812.03375pt>
+<plot_imgs/theta_in_rho_last.png, id=256, 1019.81pt x 812.03375pt>
 File: plot_imgs/theta_in_rho_last.png Graphic file (type png)
 <use plot_imgs/theta_in_rho_last.png>
 Package pdftex.def Info: plot_imgs/theta_in_rho_last.png  used on input line 40
@@ -1405,25 +1405,25 @@ Overfull \hbox (2.61107pt too wide) in paragraph at lines 383--411
 
  <./plot_imgs/theta_in_rho_get_centr.png> <./plot_imgs/theta_in_rho_corr.png> <
 ./plot_imgs/theta_in_rho_fit.png> <./plot_imgs/theta_in_rho_last.png>]
-<plot_imgs/theta_out_rho_get_centr.png, id=258, 1019.81pt x 812.03375pt>
+<plot_imgs/theta_out_rho_get_centr.png, id=262, 1019.81pt x 812.03375pt>
 File: plot_imgs/theta_out_rho_get_centr.png Graphic file (type png)
 <use plot_imgs/theta_out_rho_get_centr.png>
 Package pdftex.def Info: plot_imgs/theta_out_rho_get_centr.png  used on input l
 ine 421.
 (pdftex.def)             Requested size: 211.3883pt x 168.3142pt.
-<plot_imgs/theta_out_rho_corr.png, id=259, 1019.81pt x 812.03375pt>
+<plot_imgs/theta_out_rho_corr.png, id=263, 1019.81pt x 812.03375pt>
 File: plot_imgs/theta_out_rho_corr.png Graphic file (type png)
 <use plot_imgs/theta_out_rho_corr.png>
 Package pdftex.def Info: plot_imgs/theta_out_rho_corr.png  used on input line 4
 28.
 (pdftex.def)             Requested size: 211.3883pt x 168.3142pt.
-<plot_imgs/theta_out_rho_fit.png, id=260, 1019.81pt x 812.03375pt>
+<plot_imgs/theta_out_rho_fit.png, id=264, 1019.81pt x 812.03375pt>
 File: plot_imgs/theta_out_rho_fit.png Graphic file (type png)
 <use plot_imgs/theta_out_rho_fit.png>
 Package pdftex.def Info: plot_imgs/theta_out_rho_fit.png  used on input line 43
 5.
 (pdftex.def)             Requested size: 211.3883pt x 168.3142pt.
-<plot_imgs/theta_out_rho_last.png, id=261, 1019.81pt x 812.03375pt>
+<plot_imgs/theta_out_rho_last.png, id=265, 1019.81pt x 812.03375pt>
 File: plot_imgs/theta_out_rho_last.png Graphic file (type png)
 <use plot_imgs/theta_out_rho_last.png>
 Package pdftex.def Info: plot_imgs/theta_out_rho_last.png  used on input line 4
@@ -1443,25 +1443,25 @@ Overfull \hbox (2.61107pt too wide) in paragraph at lines 418--446
 
  <./plot_imgs/theta_out_rho_get_centr.png> <./plot_imgs/theta_out_rho_corr.png>
  <./plot_imgs/theta_out_rho_fit.png> <./plot_imgs/theta_out_rho_last.png>]
-<plot_imgs/theta_in_theta_out_get_centr.png, id=267, 1019.81pt x 812.03375pt>
+<plot_imgs/theta_in_theta_out_get_centr.png, id=271, 1019.81pt x 812.03375pt>
 File: plot_imgs/theta_in_theta_out_get_centr.png Graphic file (type png)
 <use plot_imgs/theta_in_theta_out_get_centr.png>
 Package pdftex.def Info: plot_imgs/theta_in_theta_out_get_centr.png  used on in
 put line 456.
 (pdftex.def)             Requested size: 211.3883pt x 168.3142pt.
-<plot_imgs/theta_in_theta_out_corr.png, id=268, 1019.81pt x 812.03375pt>
+<plot_imgs/theta_in_theta_out_corr.png, id=272, 1019.81pt x 812.03375pt>
 File: plot_imgs/theta_in_theta_out_corr.png Graphic file (type png)
 <use plot_imgs/theta_in_theta_out_corr.png>
 Package pdftex.def Info: plot_imgs/theta_in_theta_out_corr.png  used on input l
 ine 463.
 (pdftex.def)             Requested size: 211.3883pt x 168.3142pt.
-<plot_imgs/theta_in_theta_out_fit.png, id=269, 1019.81pt x 812.03375pt>
+<plot_imgs/theta_in_theta_out_fit.png, id=273, 1019.81pt x 812.03375pt>
 File: plot_imgs/theta_in_theta_out_fit.png Graphic file (type png)
 <use plot_imgs/theta_in_theta_out_fit.png>
 Package pdftex.def Info: plot_imgs/theta_in_theta_out_fit.png  used on input li
 ne 470.
 (pdftex.def)             Requested size: 211.3883pt x 168.3142pt.
-<plot_imgs/theta_in_theta_out_last.png, id=270, 1019.81pt x 812.03375pt>
+<plot_imgs/theta_in_theta_out_last.png, id=274, 1019.81pt x 812.03375pt>
 File: plot_imgs/theta_in_theta_out_last.png Graphic file (type png)
 <use plot_imgs/theta_in_theta_out_last.png>
 Package pdftex.def Info: plot_imgs/theta_in_theta_out_last.png  used on input l
@@ -1482,23 +1482,23 @@ Overfull \hbox (2.61107pt too wide) in paragraph at lines 453--481
  <./plot_imgs/theta_in_theta_out_get_centr.png> <./plot_imgs/theta_in_theta_out
 _corr.png> <./plot_imgs/theta_in_theta_out_fit.png> <./plot_imgs/theta_in_theta
 _out_last.png>]
-<plot_imgs/mw3_rho_get_centr.png, id=277, 1019.81pt x 812.03375pt>
+<plot_imgs/mw3_rho_get_centr.png, id=281, 1019.81pt x 812.03375pt>
 File: plot_imgs/mw3_rho_get_centr.png Graphic file (type png)
 <use plot_imgs/mw3_rho_get_centr.png>
 Package pdftex.def Info: plot_imgs/mw3_rho_get_centr.png  used on input line 49
 1.
 (pdftex.def)             Requested size: 211.3883pt x 168.3142pt.
-<plot_imgs/mw3_rho_corr.png, id=278, 1019.81pt x 812.03375pt>
+<plot_imgs/mw3_rho_corr.png, id=282, 1019.81pt x 812.03375pt>
 File: plot_imgs/mw3_rho_corr.png Graphic file (type png)
 <use plot_imgs/mw3_rho_corr.png>
 Package pdftex.def Info: plot_imgs/mw3_rho_corr.png  used on input line 498.
 (pdftex.def)             Requested size: 211.3883pt x 168.3142pt.
-<plot_imgs/mw3_rho_fit.png, id=279, 1019.81pt x 812.03375pt>
+<plot_imgs/mw3_rho_fit.png, id=283, 1019.81pt x 812.03375pt>
 File: plot_imgs/mw3_rho_fit.png Graphic file (type png)
 <use plot_imgs/mw3_rho_fit.png>
 Package pdftex.def Info: plot_imgs/mw3_rho_fit.png  used on input line 505.
 (pdftex.def)             Requested size: 211.3883pt x 168.3142pt.
-<plot_imgs/mw3_rho_last.png, id=280, 1019.81pt x 812.03375pt>
+<plot_imgs/mw3_rho_last.png, id=284, 1019.81pt x 812.03375pt>
 File: plot_imgs/mw3_rho_last.png Graphic file (type png)
 <use plot_imgs/mw3_rho_last.png>
 Package pdftex.def Info: plot_imgs/mw3_rho_last.png  used on input line 512.
@@ -1517,23 +1517,23 @@ Overfull \hbox (2.61107pt too wide) in paragraph at lines 488--516
 
  <./plot_imgs/mw3_rho_get_centr.png> <./plot_imgs/mw3_rho_corr.png> <./plot_img
 s/mw3_rho_fit.png> <./plot_imgs/mw3_rho_last.png>]
-<plot_imgs/mw2_rho_get_centr.png, id=286, 1019.81pt x 812.03375pt>
+<plot_imgs/mw2_rho_get_centr.png, id=290, 1019.81pt x 812.03375pt>
 File: plot_imgs/mw2_rho_get_centr.png Graphic file (type png)
 <use plot_imgs/mw2_rho_get_centr.png>
 Package pdftex.def Info: plot_imgs/mw2_rho_get_centr.png  used on input line 52
 6.
 (pdftex.def)             Requested size: 211.3883pt x 168.3142pt.
-<plot_imgs/mw2_rho_corr.png, id=287, 1019.81pt x 812.03375pt>
+<plot_imgs/mw2_rho_corr.png, id=291, 1019.81pt x 812.03375pt>
 File: plot_imgs/mw2_rho_corr.png Graphic file (type png)
 <use plot_imgs/mw2_rho_corr.png>
 Package pdftex.def Info: plot_imgs/mw2_rho_corr.png  used on input line 533.
 (pdftex.def)             Requested size: 211.3883pt x 168.3142pt.
-<plot_imgs/mw2_rho_fit.png, id=288, 1019.81pt x 812.03375pt>
+<plot_imgs/mw2_rho_fit.png, id=292, 1019.81pt x 812.03375pt>
 File: plot_imgs/mw2_rho_fit.png Graphic file (type png)
 <use plot_imgs/mw2_rho_fit.png>
 Package pdftex.def Info: plot_imgs/mw2_rho_fit.png  used on input line 540.
 (pdftex.def)             Requested size: 211.3883pt x 168.3142pt.
-<plot_imgs/mw2_rho_last.png, id=289, 1019.81pt x 812.03375pt>
+<plot_imgs/mw2_rho_last.png, id=293, 1019.81pt x 812.03375pt>
 File: plot_imgs/mw2_rho_last.png Graphic file (type png)
 <use plot_imgs/mw2_rho_last.png>
 Package pdftex.def Info: plot_imgs/mw2_rho_last.png  used on input line 547.
@@ -1552,24 +1552,51 @@ Overfull \hbox (2.61107pt too wide) in paragraph at lines 523--551
 
  <./plot_imgs/mw2_rho_get_centr.png> <./plot_imgs/mw2_rho_corr.png> <./plot_img
 s/mw2_rho_fit.png> <./plot_imgs/mw2_rho_last.png>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 559.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 559.
+Overfull \hbox (5.19273pt too wide) in paragraph at lines 557--557
+[]\OT1/cmr/bx/n/17.28 Relative mo-men-tum res-o-lu-tion "Ad-vanced Fit-Track-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 559--588
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 559--588
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 559--588
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 559--588
+
+ []
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 591.
+[21
+
+]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 591.
  (./doc_rad_calc.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 559.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 559.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 591.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 591.
 Package rerunfilecheck Info: File `doc_rad_calc.out' has not changed.
-(rerunfilecheck)             Checksum: E57521142C9722CA65B391F9A2DBA6DE;2015.
+(rerunfilecheck)             Checksum: 69F832ABAA18BCBB64BCCB2500581FA3;2107.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 559.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 591.
  ) 
 Here is how much of TeX's memory you used:
- 6881 strings out of 494880
- 108508 string characters out of 6179601
+ 6884 strings out of 494880
+ 108535 string characters out of 6179601
  180804 words of memory out of 5000000
- 10032 multiletter control sequences out of 15000+600000
+ 10033 multiletter control sequences out of 15000+600000
  9276 words of font info for 33 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  42i,8n,40p,398b,471s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1588,10 +1615,10 @@ usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/sh
 are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/tex
 live/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/te
 xmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on doc_rad_calc.pdf (21 pages, 2454358 bytes).
+Output written on doc_rad_calc.pdf (22 pages, 2457994 bytes).
 PDF statistics:
- 364 PDF objects out of 1000 (max. 8388607)
- 261 compressed objects within 3 object streams
- 69 named destinations out of 1000 (max. 500000)
- 458 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 372 PDF objects out of 1000 (max. 8388607)
+ 268 compressed objects within 3 object streams
+ 71 named destinations out of 1000 (max. 500000)
+ 466 words of extra memory for PDF output out of 10000 (max. 10000000)
 
