@@ -4,6 +4,8 @@
 \usepackage{xspace}
 \usepackage{hyperref}
 \usepackage{fullpage}
+\usepackage{subcaption}
+\usepackage{placeins}
 \hypersetup{
     colorlinks=true,
     linkcolor=blue,
@@ -153,21 +155,404 @@ $\rho$ = $\frac{\textrm{L\textunderscore eff}}{2\cdot\sin\left(\frac{theta\textu
 	\includegraphics[width=0.7\textwidth]{theta_out_corr_alg.png}
 \end{center}
 
-\subsection{Optional method: Kickplane method, setting theta\textunderscore in to 0}
+\subsection{Final method: "Advanced Fit-Track" method}
+The same track finding algorithm as for the "Fit-Track" method is used with the only difference that the value for $theta\textunderscore in$ is calculated from the fit of $theta\textunderscore out$ vs. xMW3:\\
+%insert plot here with fit theta_out vs xMW3
+\\
+The parameters for the linear fit are used for the calculation of $theta\textunderscore in$ :\\
+
+$theta\textunderscore in = \alpha - a \cdot x\textunderscore MW3 - b$ \\
+\\
+With \textbf{a} being the slope and \textbf{b} the offset of the fit. This method prevents from adding up the errors from theta\textunderscore in measurement.
 
 \section{Plots}
 In this section all the plots for the various track finding algorithms are presented. For the calculation of the theta\textunderscore in angle MWPC1 and MWPC2 are used. Alternatively MWPC0 and MWPC2 could be used, to get a longer lever arm (work in progress ...).\\
+
 \subsection{MWPC1 vs MWPC2 - x position}
+\begin{figure}[!htbp]
+\begin{subfigure}{.5\textwidth}
+  \centering
+  % include first image
+  \includegraphics[width=.9\linewidth]{plot_imgs/mw2_mw1_get_centr.png}  
+  \caption{"Kickplane-Method"}
+  \label{fig:sub-first}
+\end{subfigure}
+\begin{subfigure}{.5\textwidth}
+  \centering
+  % include second image
+  \includegraphics[width=.9\linewidth]{plot_imgs/mw2_mw1_corr.png} 
+  \caption{"Theta \textunderscore in correction-Method"}
+  \label{fig:sub-second}
+\end{subfigure}
+\begin{subfigure}{.5\textwidth}
+  \centering
+  % include second image
+  \includegraphics[width=.9\linewidth]{plot_imgs/mw2_mw1_fit.png} 
+  \caption{"Fit-Track-Method"}
+  \label{fig:sub-second}
+\end{subfigure}
+\begin{subfigure}{.5\textwidth}
+  \centering
+  % include second image
+  \includegraphics[width=.9\linewidth]{plot_imgs/mw2_mw1_last.png} 
+  \caption{"Advanced Fit-Track-Method"}
+  \label{fig:sub-second}
+\end{subfigure}
+\caption{Put your caption here}
+\label{fig:fig}
+\end{figure}
+\FloatBarrier
+\clearpage
 \subsection{MW0 vs MW2- x position }
+\begin{figure}[!htbp]
+\begin{subfigure}{.5\textwidth}
+  \centering
+  % include first image
+  \includegraphics[width=.9\linewidth]{plot_imgs/mw2_mw0_get_centr.png}  
+  \caption{"Kickplane-Method"}
+  \label{fig:sub-first}
+\end{subfigure}
+\begin{subfigure}{.5\textwidth}
+  \centering
+  % include second image
+  \includegraphics[width=.9\linewidth]{plot_imgs/mw2_mw0_corr.png} 
+  \caption{"Theta \textunderscore in correction-Method"}
+  \label{fig:sub-second}
+\end{subfigure}
+\begin{subfigure}{.5\textwidth}
+  \centering
+  % include second image
+  \includegraphics[width=.9\linewidth]{plot_imgs/mw2_mw0_fit.png} 
+  \caption{"Fit-Track-Method"}
+  \label{fig:sub-second}
+\end{subfigure}
+\begin{subfigure}{.5\textwidth}
+  \centering
+  % include second image
+  \includegraphics[width=.9\linewidth]{plot_imgs/mw2_mw0_last.png} 
+  \caption{"Advanced Fit-Track-Method"}
+  \label{fig:sub-second}
+\end{subfigure}
+\caption{Put your caption here}
+\label{fig:fig}
+\end{figure}
+\FloatBarrier
+\clearpage
 \subsection{MW1 vs MW3 - x position}
+\begin{figure}[!htbp]
+\begin{subfigure}{.5\textwidth}
+  \centering
+  % include first image
+  \includegraphics[width=.9\linewidth]{plot_imgs/mw3_mw1_get_centr.png}  
+  \caption{"Kickplane-Method"}
+  \label{fig:sub-first}
+\end{subfigure}
+\begin{subfigure}{.5\textwidth}
+  \centering
+  % include second image
+  \includegraphics[width=.9\linewidth]{plot_imgs/mw3_mw1_corr.png} 
+  \caption{"Theta \textunderscore in correction-Method"}
+  \label{fig:sub-second}
+\end{subfigure}
+\begin{subfigure}{.5\textwidth}
+  \centering
+  % include second image
+  \includegraphics[width=.9\linewidth]{plot_imgs/mw3_mw1_fit.png} 
+  \caption{"Fit-Track-Method"}
+  \label{fig:sub-second}
+\end{subfigure}
+\begin{subfigure}{.5\textwidth}
+  \centering
+  % include second image
+  \includegraphics[width=.9\linewidth]{plot_imgs/mw3_mw1_last.png} 
+  \caption{"Advanced Fit-Track-Method"}
+  \label{fig:sub-second}
+\end{subfigure}
+\caption{Put your caption here}
+\label{fig:fig}
+\end{figure}
+\FloatBarrier
+\clearpage
 \subsection{theta\textunderscore out vs MW3- x position }
+\begin{figure}[!htbp]
+\begin{subfigure}{.5\textwidth}
+  \centering
+  % include first image
+  \includegraphics[width=.9\linewidth]{plot_imgs/theta_out_mw3_get_centr.png}  
+  \caption{"Kickplane-Method"}
+  \label{fig:sub-first}
+\end{subfigure}
+\begin{subfigure}{.5\textwidth}
+  \centering
+  % include second image
+  \includegraphics[width=.9\linewidth]{plot_imgs/theta_out_mw3_corr.png} 
+  \caption{"Theta \textunderscore in correction-Method"}
+  \label{fig:sub-second}
+\end{subfigure}
+\begin{subfigure}{.5\textwidth}
+  \centering
+  % include second image
+  \includegraphics[width=.9\linewidth]{plot_imgs/theta_out_mw3_fit.png} 
+  \caption{"Fit-Track-Method"}
+  \label{fig:sub-second}
+\end{subfigure}
+\begin{subfigure}{.5\textwidth}
+  \centering
+  % include second image
+  \includegraphics[width=.9\linewidth]{plot_imgs/theta_out_mw3_last.png} 
+  \caption{"Advanced Fit-Track-Method"}
+  \label{fig:sub-second}
+\end{subfigure}
+\caption{Put your caption here}
+\label{fig:fig}
+\end{figure}
+\FloatBarrier
+\clearpage
 \subsection{theta\textunderscore in vs MW3 - x position}
+\begin{figure}[!htbp]
+\begin{subfigure}{.5\textwidth}
+  \centering
+  % include first image
+  \includegraphics[width=.9\linewidth]{plot_imgs/theta_in_mw3_get_centr.png}  
+  \caption{"Kickplane-Method"}
+  \label{fig:sub-first}
+\end{subfigure}
+\begin{subfigure}{.5\textwidth}
+  \centering
+  % include second image
+  \includegraphics[width=.9\linewidth]{plot_imgs/theta_in_mw3_corr.png} 
+  \caption{"Theta \textunderscore in correction-Method"}
+  \label{fig:sub-second}
+\end{subfigure}
+\begin{subfigure}{.5\textwidth}
+  \centering
+  % include second image
+  \includegraphics[width=.9\linewidth]{plot_imgs/theta_in_mw3_fit.png} 
+  \caption{"Fit-Track-Method"}
+  \label{fig:sub-second}
+\end{subfigure}
+\begin{subfigure}{.5\textwidth}
+  \centering
+  % include second image
+  \includegraphics[width=.9\linewidth]{plot_imgs/theta_in_mw3_last.png} 
+  \caption{"Advanced Fit-Track-Method"}
+  \label{fig:sub-second}
+\end{subfigure}
+\caption{Put your caption here}
+\label{fig:fig}
+\end{figure}
+\FloatBarrier
+\clearpage
 \subsection{theta\textunderscore in+theta\textunderscore out vs MW3- x position }
+\begin{figure}[!htbp]
+\begin{subfigure}{.5\textwidth}
+  \centering
+  % include first image
+  \includegraphics[width=.9\linewidth]{plot_imgs/theta_out_theta_in_mw3_get_centr.png}  
+  \caption{"Kickplane-Method"}
+  \label{fig:sub-first}
+\end{subfigure}
+\begin{subfigure}{.5\textwidth}
+  \centering
+  % include second image
+  \includegraphics[width=.9\linewidth]{plot_imgs/theta_out_theta_in_mw3_corr.png} 
+  \caption{"Theta \textunderscore in correction-Method"}
+  \label{fig:sub-second}
+\end{subfigure}
+\begin{subfigure}{.5\textwidth}
+  \centering
+  % include second image
+  \includegraphics[width=.9\linewidth]{plot_imgs/theta_out_theta_in_mw3_fit.png} 
+  \caption{"Fit-Track-Method"}
+  \label{fig:sub-second}
+\end{subfigure}
+\begin{subfigure}{.5\textwidth}
+  \centering
+  % include second image
+  \includegraphics[width=.9\linewidth]{plot_imgs/theta_out_theta_in_mw3_last.png} 
+  \caption{"Advanced Fit-Track-Method"}
+  \label{fig:sub-second}
+\end{subfigure}
+\caption{Put your caption here}
+\label{fig:fig}
+\end{figure}
+\FloatBarrier
+\clearpage
 \subsection{theta\textunderscore in vs Radius}
+\begin{figure}[!htbp]
+\begin{subfigure}{.5\textwidth}
+  \centering
+  % include first image
+  \includegraphics[width=.9\linewidth]{plot_imgs/theta_in_rho_get_centr.png}  
+  \caption{"Kickplane-Method"}
+  \label{fig:sub-first}
+\end{subfigure}
+\begin{subfigure}{.5\textwidth}
+  \centering
+  % include second image
+  \includegraphics[width=.9\linewidth]{plot_imgs/theta_in_rho_corr.png} 
+  \caption{"Theta \textunderscore in correction-Method"}
+  \label{fig:sub-second}
+\end{subfigure}
+\begin{subfigure}{.5\textwidth}
+  \centering
+  % include second image
+  \includegraphics[width=.9\linewidth]{plot_imgs/theta_in_rho_fit.png} 
+  \caption{"Fit-Track-Method"}
+  \label{fig:sub-second}
+\end{subfigure}
+\begin{subfigure}{.5\textwidth}
+  \centering
+  % include second image
+  \includegraphics[width=.9\linewidth]{plot_imgs/theta_in_rho_last.png} 
+  \caption{"Advanced Fit-Track-Method"}
+  \label{fig:sub-second}
+\end{subfigure}
+\caption{Put your caption here}
+\label{fig:fig}
+\end{figure}
+\FloatBarrier
+\clearpage
 \subsection{theta\textunderscore out vs Radius}
+\begin{figure}[!htbp]
+\begin{subfigure}{.5\textwidth}
+  \centering
+  % include first image
+  \includegraphics[width=.9\linewidth]{plot_imgs/theta_out_rho_get_centr.png}  
+  \caption{"Kickplane-Method"}
+  \label{fig:sub-first}
+\end{subfigure}
+\begin{subfigure}{.5\textwidth}
+  \centering
+  % include second image
+  \includegraphics[width=.9\linewidth]{plot_imgs/theta_out_rho_corr.png} 
+  \caption{"Theta \textunderscore in correction-Method"}
+  \label{fig:sub-second}
+\end{subfigure}
+\begin{subfigure}{.5\textwidth}
+  \centering
+  % include second image
+  \includegraphics[width=.9\linewidth]{plot_imgs/theta_out_rho_fit.png} 
+  \caption{"Fit-Track-Method"}
+  \label{fig:sub-second}
+\end{subfigure}
+\begin{subfigure}{.5\textwidth}
+  \centering
+  % include second image
+  \includegraphics[width=.9\linewidth]{plot_imgs/theta_out_rho_last.png} 
+  \caption{"Advanced Fit-Track-Method"}
+  \label{fig:sub-second}
+\end{subfigure}
+\caption{Put your caption here}
+\label{fig:fig}
+\end{figure}
+\FloatBarrier
+\clearpage
 \subsection{theta\textunderscore in vs theta\textunderscore out}
+\begin{figure}[!htbp]
+\begin{subfigure}{.5\textwidth}
+  \centering
+  % include first image
+  \includegraphics[width=.9\linewidth]{plot_imgs/theta_in_theta_out_get_centr.png}  
+  \caption{"Kickplane-Method"}
+  \label{fig:sub-first}
+\end{subfigure}
+\begin{subfigure}{.5\textwidth}
+  \centering
+  % include second image
+  \includegraphics[width=.9\linewidth]{plot_imgs/theta_in_theta_out_corr.png} 
+  \caption{"Theta \textunderscore in correction-Method"}
+  \label{fig:sub-second}
+\end{subfigure}
+\begin{subfigure}{.5\textwidth}
+  \centering
+  % include second image
+  \includegraphics[width=.9\linewidth]{plot_imgs/theta_in_theta_out_fit.png} 
+  \caption{"Fit-Track-Method"}
+  \label{fig:sub-second}
+\end{subfigure}
+\begin{subfigure}{.5\textwidth}
+  \centering
+  % include second image
+  \includegraphics[width=.9\linewidth]{plot_imgs/theta_in_theta_out_last.png} 
+  \caption{"Advanced Fit-Track-Method"}
+  \label{fig:sub-second}
+\end{subfigure}
+\caption{Put your caption here}
+\label{fig:fig}
+\end{figure}
+\FloatBarrier
+\clearpage
 \subsection{MW3 vs Radius - x position}
+\begin{figure}[!htbp]
+\begin{subfigure}{.5\textwidth}
+  \centering
+  % include first image
+  \includegraphics[width=.9\linewidth]{plot_imgs/mw3_rho_get_centr.png}  
+  \caption{"Kickplane-Method"}
+  \label{fig:sub-first}
+\end{subfigure}
+\begin{subfigure}{.5\textwidth}
+  \centering
+  % include second image
+  \includegraphics[width=.9\linewidth]{plot_imgs/mw3_rho_corr.png} 
+  \caption{"Theta \textunderscore in correction-Method"}
+  \label{fig:sub-second}
+\end{subfigure}
+\begin{subfigure}{.5\textwidth}
+  \centering
+  % include second image
+  \includegraphics[width=.9\linewidth]{plot_imgs/mw3_rho_fit.png} 
+  \caption{"Fit-Track-Method"}
+  \label{fig:sub-second}
+\end{subfigure}
+\begin{subfigure}{.5\textwidth}
+  \centering
+  % include second image
+  \includegraphics[width=.9\linewidth]{plot_imgs/mw3_rho_last.png} 
+  \caption{"Advanced Fit-Track-Method"}
+  \label{fig:sub-second}
+\end{subfigure}
+\caption{Put your caption here}
+\label{fig:fig}
+\end{figure}
+\FloatBarrier
+\clearpage
 \subsection{MW2 vs Radius - x position}
+\begin{figure}[!htbp]
+\begin{subfigure}{.5\textwidth}
+  \centering
+  % include first image
+  \includegraphics[width=.9\linewidth]{plot_imgs/mw2_rho_get_centr.png}  
+  \caption{"Kickplane-Method"}
+  \label{fig:sub-first}
+\end{subfigure}
+\begin{subfigure}{.5\textwidth}
+  \centering
+  % include second image
+  \includegraphics[width=.9\linewidth]{plot_imgs/mw2_rho_corr.png} 
+  \caption{"Theta \textunderscore in correction-Method"}
+  \label{fig:sub-second}
+\end{subfigure}
+\begin{subfigure}{.5\textwidth}
+  \centering
+  % include second image
+  \includegraphics[width=.9\linewidth]{plot_imgs/mw2_rho_fit.png} 
+  \caption{"Fit-Track-Method"}
+  \label{fig:sub-second}
+\end{subfigure}
+\begin{subfigure}{.5\textwidth}
+  \centering
+  % include second image
+  \includegraphics[width=.9\linewidth]{plot_imgs/mw2_rho_last.png} 
+  \caption{"Advanced Fit-Track-Method"}
+  \label{fig:sub-second}
+\end{subfigure}
+\caption{Put your caption here}
+\label{fig:fig}
+\end{figure}
+\FloatBarrier
+\clearpage
 
 
 
