@@ -159,11 +159,12 @@ $\rho$ = $\frac{\textrm{L\textunderscore eff}}{2\cdot\sin\left(\frac{theta\textu
 The same track finding algorithm as for the "Fit-Track" method is used with the only difference that the value for $theta\textunderscore in$ is calculated from the fit of $theta\textunderscore out$ vs. xMW3:\\
 %insert plot here with fit theta_out vs xMW3
 \\
-The parameters for the linear fit are used for the calculation of $theta\textunderscore in$ :\\
+The parameters of the linear fit are used for the calculation of $theta\textunderscore in$ :\\
 
 $theta\textunderscore in = \alpha - a \cdot x\textunderscore MW3 - b$ \\
 \\
-With \textbf{a} being the slope and \textbf{b} the offset of the fit. This method prevents from adding up the errors from theta\textunderscore in measurement.
+With \textbf{a} being the slope and \textbf{b} the offset of the fit. This method prevents from adding up the errors from theta\textunderscore in measurement.\\
+$\alpha$ corresponds to the calculated deflection angle depending on the GLAD current\footnote{for more info see: \url{http://web-docs.gsi.de/~land/glad/}}.
 
 \section{Plots}
 In this section all the plots for the various track finding algorithms are presented. For the calculation of the theta\textunderscore in angle MWPC1 and MWPC2 are used. Alternatively MWPC0 and MWPC2 could be used, to get a longer lever arm (work in progress ...).\\
@@ -198,7 +199,7 @@ In this section all the plots for the various track finding algorithms are prese
   \caption{"Advanced Fit-Track-Method"}
   \label{fig:sub-second}
 \end{subfigure}
-\caption{Put your caption here}
+\caption{MWPC1 vs MPWPC2 - x position for sweep runs 39-61.}
 \label{fig:fig}
 \end{figure}
 \FloatBarrier
@@ -233,7 +234,7 @@ In this section all the plots for the various track finding algorithms are prese
   \caption{"Advanced Fit-Track-Method"}
   \label{fig:sub-second}
 \end{subfigure}
-\caption{Put your caption here}
+\caption{MWPC2 vs MWPC0 - x position for sweep runs 39-61.}
 \label{fig:fig}
 \end{figure}
 \FloatBarrier
@@ -268,7 +269,7 @@ In this section all the plots for the various track finding algorithms are prese
   \caption{"Advanced Fit-Track-Method"}
   \label{fig:sub-second}
 \end{subfigure}
-\caption{Put your caption here}
+\caption{MWPC3 vs MWPC1 - x position for sweep runs 39-61.}
 \label{fig:fig}
 \end{figure}
 \FloatBarrier
@@ -303,7 +304,7 @@ In this section all the plots for the various track finding algorithms are prese
   \caption{"Advanced Fit-Track-Method"}
   \label{fig:sub-second}
 \end{subfigure}
-\caption{Put your caption here}
+\caption{Theta\textunderscore out vs MWPC3 x position for sweep runs 39-61.}
 \label{fig:fig}
 \end{figure}
 \FloatBarrier
@@ -338,7 +339,7 @@ In this section all the plots for the various track finding algorithms are prese
   \caption{"Advanced Fit-Track-Method"}
   \label{fig:sub-second}
 \end{subfigure}
-\caption{Put your caption here}
+\caption{Theta \textunderscore in vs MWPC3 x position for sweep runs 39-61.}
 \label{fig:fig}
 \end{figure}
 \FloatBarrier
@@ -373,7 +374,7 @@ In this section all the plots for the various track finding algorithms are prese
   \caption{"Advanced Fit-Track-Method"}
   \label{fig:sub-second}
 \end{subfigure}
-\caption{Put your caption here}
+\caption{Theta \textunderscore out + theta \textunderscore in vs MWPC3 x position for sweep runs 39-61.}
 \label{fig:fig}
 \end{figure}
 \FloatBarrier
@@ -408,7 +409,7 @@ In this section all the plots for the various track finding algorithms are prese
   \caption{"Advanced Fit-Track-Method"}
   \label{fig:sub-second}
 \end{subfigure}
-\caption{Put your caption here}
+\caption{Theta \textunderscore in vs GLAD Radius for sweep runs 39-61.}
 \label{fig:fig}
 \end{figure}
 \FloatBarrier
@@ -443,7 +444,7 @@ In this section all the plots for the various track finding algorithms are prese
   \caption{"Advanced Fit-Track-Method"}
   \label{fig:sub-second}
 \end{subfigure}
-\caption{Put your caption here}
+\caption{Theta \textunderscore out vs GLAD Radius for sweep runs 39-61.}
 \label{fig:fig}
 \end{figure}
 \FloatBarrier
@@ -478,7 +479,7 @@ In this section all the plots for the various track finding algorithms are prese
   \caption{"Advanced Fit-Track-Method"}
   \label{fig:sub-second}
 \end{subfigure}
-\caption{Put your caption here}
+\caption{Theta \textunderscore in vs theta \textunderscore out for sweep runs 39-61.}
 \label{fig:fig}
 \end{figure}
 \FloatBarrier
@@ -513,7 +514,7 @@ In this section all the plots for the various track finding algorithms are prese
   \caption{"Advanced Fit-Track-Method"}
   \label{fig:sub-second}
 \end{subfigure}
-\caption{Put your caption here}
+\caption{MWPC3 x position vs GLAD Radius for sweep runs 39-61.}
 \label{fig:fig}
 \end{figure}
 \FloatBarrier
@@ -548,7 +549,7 @@ In this section all the plots for the various track finding algorithms are prese
   \caption{"Advanced Fit-Track-Method"}
   \label{fig:sub-second}
 \end{subfigure}
-\caption{Put your caption here}
+\caption{MWPC2 x position vs GLAD Radius for sweep runs 39-61.}
 \label{fig:fig}
 \end{figure}
 \FloatBarrier
