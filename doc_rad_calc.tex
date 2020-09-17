@@ -591,4 +591,57 @@ With mean relative resolution $\frac{\Delta\rho}{\rho}$ = 2.55e-03.
 
 
 
+
+
+\section{Limiting Radius/Momentum resolution factors}
+
+The radius/momentum resolution is limited by:\\
+\begin{itemize}
+\item Energy straggling
+\item Angular straggling
+\item Angular resolution of MWPC1/2
+\item position resolution of MWPC3 (higher order??)
+\end{itemize}
+
+\subsection{Engergy straggling}
+
+For the error calculation the mean energy inside the GLAD was used and the corresponding standard deviation. 
+Generally for a charged particle drifting through a magnetic field the radius of the curved path the particle is following is defined as:\\
+\\
+$\rho = \frac{\gamma \cdot \beta \cdot m}{q \cdot B}$\\
+(considering c = 1)\\
+Energy straggling has an effect on $\beta$ and $\gamma$ respectively. The measurement uncertainty with respect to $\beta$ can be calculated as follows:\\
+$\frac{d\rho}{d\beta} = \frac{1}{(\sqrt{1-\beta^2})^3}\cdot \frac{m}{qB}$\\
+\newline
+$\Delta\rho_{\beta} = \frac{d\rho}{d\beta} \cdot \Delta\beta = \frac{\Delta\beta}{(\sqrt{1-\beta^2})^3}\cdot \frac{m}{qB}$\\
+
+with relative measurement uncertainty $\frac{\Delta\rho_{\beta}}{\rho} = 5.434e-04$\\
+
+\subsection{Angular straggling}
+For the error calculation originating from angular straggling it is considered only angular straggling starting from the backend of the MWPC1. That means for this error calculation it is assumed to have a perfect focussed beam undergoes no broadening until it hits the MWPC1 (always at the same x-y-z position). Angular straggling broadens the beam focus and affects therefore both $\Theta$\textunderscore in and $\Theta$\textunderscore out. \\
+(angular straggling for $\Theta$\textunderscore in can be neglected, higher order...)\\
+For the calculation of  measurement uncertainty with respect to $\Theta$\textunderscore out we use the simplified geometrical formula of the radius:\\
+$\rho = \frac{L_{eff}}{2\cdot\sin(\frac{\Theta{in}+\Theta{out}}{2})}$\footnote{on the following pages I set $\Theta{in} = 0$ and $\Theta{out}$ to the value given by the GLAD field calculator(Mass = 12, Charge = 6, Energy = 400 A/MeV, Current = 1444), see \url{http://web-docs.gsi.de/~land/glad/}.}\\ 
+From that follows:\\
+$\Delta\rho_{\Theta{out}} = -\rho\cdot \frac{1}{2\cdot\tan(\frac{\Theta{in}+\Theta{out}}{2})}\cdot\Delta\Theta{out}$\\
+with $\Delta\Theta{out} = 5.431e-04$\\
+Hence:\\
+$\Big|\frac{\Delta\rho{\Theta{out}}}{\rho}\Big| = \frac{1}{2\cdot\tan(\frac{\Theta{in}+\Theta{out}}{2})}\cdot\Delta\Theta{out} = $1.724e-03
+
+\subsection{Angular resolution of MWPC1/2}
+$\Delta\rho_{\Theta{in}} = -\rho\cdot \frac{1}{2\cdot\tan(\frac{\Theta{in}+\Theta{out}}{2})}\cdot\Delta\Theta{in}$ \\
+with $\Delta\Theta_{in} = \frac{2\cdot \Delta x}{L} $\footnote{$\Theta_{in} = \frac{x_{2}-x{1}}{L}$, $\Delta\Theta_{in} = \big|\frac{d\Theta_{in}}{dx_{2}} \big|\cdot \Delta x_{2} + \big|\frac{d\Theta_{in}}{dx_{1}} \big|\cdot \Delta x_{1} = \frac{2\cdot \Delta x}{L}$} and L the (z-)distance between MWPC1 and MWPC2 (= 575mm).\\
+\newline
+With $\Delta x = 0.1mm$ it follows:\\
+\newline
+$\Big|\frac{\Delta\rho_{\Theta_{in}}}{\rho}\Big| = $ 1.104e-03.
+\newline
+\newline
+Adding up the above errors quadratically we get:\\
+$\Big|\frac{\Delta\rho}{\rho}\Big| = \sqrt{(5.434\cdot10^{-4})^{2}+(1.724\cdot10^{-3})^{2}+(1.104\cdot10^{-3})^{2}} = 2.12\cdot10^{-3} $
+ 
+
+
 \end{document}
+
+
