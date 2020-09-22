@@ -640,7 +640,28 @@ $\Big|\frac{\Delta\rho_{\Theta_{in}}}{\rho}\Big| = $ 1.104e-03.
 Adding up the above errors quadratically we get:\\
 $\Big|\frac{\Delta\rho}{\rho}\Big| = \sqrt{(5.434\cdot10^{-4})^{2}+(1.079\cdot10^{-3})^{2}+(1.104\cdot10^{-3})^{2}} = 1.64\cdot10^{-3} $
 
-\subsection{Scalability of the field}
+\subsection{Limiting Radius resolution factors on data}
+For this subsection RUN 53 (with GLAD current = 1444A) is taken in account.\\
+From the table of relative radius resolution we see that for RUN 53 it corresponds to 2.500e-03. The contribution from angular resolution of MWPC1/2 is 1.104e-03 (see previous section). The major limiting factor, the angular straggling can be retrieved from the resolution of theta \textunderscore out. It has to be considered that the resolution of theta \textunderscore out is affected by the beam broadening before the MWPC1. To account for that it has to be analyzed the impact of theta \textunderscore in on theta \textunderscore out. \\
+Therefore an offset of 1 mrad is added to  theta \textunderscore in and the mean values for theta \textunderscore out can be compared :\\
+\begin{itemize}
+\item theta \textunderscore out without shift: $3.13257\cdot10^{-1}$
+\item theta \textunderscore out with 1 mrad theta \textunderscore in shift: $3.13912\cdot10^{-1}$
+\item difference: $6.55\cdot10^{-1}$mrad
+\end{itemize}
+That means we have a translation factor (for small angles) of 0.655 for theta \textunderscore in to theta \textunderscore out.\\
+The error calculation in the previous section predicts following angular straggling error:\\
+$2.5\cdot10^{-3} = \sqrt{(1.104\cdot10^{-3})^{2}+(\Big|\frac{\Delta\rho{\Theta_{out}}}{\rho}\Big|)^{2}}$ \\
+follows:\\
+$\Big|\frac{\Delta\rho{\Theta_{out}}}{\rho}\Big| = 2.24\cdot10^{-3}$\\
+$\Longrightarrow 2.24\cdot10^{-3} \cdot \tan(0.15625) \cdot 2 = 7.1 \cdot 10^{-4} =  \Delta\theta_{out}$ \\
+The angular resolution of theta \textunderscore out from data is 1.78045E-03. From this value the angular beam broadening (multiplied by the translation factor) before MWPC1 has to be substracted:\\
+$\Delta\theta_{out} = 1.78045\cdot10^{-3} -0.655 \cdot 1.61086\cdot 10^{-3} = 7.253 \cdot 10^{-4} $\\
+This result coincides well with the predicted one and confirms that the predominant factors for the limiting radius resolution are angular straggling and the angular resolution of MWPC1/2.
+
+
+
+\section{Scalability of the field}
 Using the sweep runs (39-61) with different GLAD currents, the scalability of the B-Field can be analyzed. In figure \ref{fig:scalar} B\textunderscore$\rho$  from GLAD calculator divided by the mean radius is plotted against the according current values.\\ 
  \begin{figure}[!htb]
 	\includegraphics[width=0.7\textwidth]{scalar.png}
@@ -776,7 +797,7 @@ $e$: elementary charge = $1.602176634\cdot10^{-19}$C\\
 $c$: speed of light = 299792458 m/s\\
 $u$: atomic mass unit = $1.66053906660\cdot10^{-27}$kg\\
 In figure you 
-
+....work in progress
 
 
 
