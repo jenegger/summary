@@ -624,9 +624,9 @@ For the calculation of  measurement uncertainty with respect to $\Theta$\textund
 $\rho = \frac{L_{eff}}{2\cdot\sin(\frac{\Theta{in}+\Theta{out}}{2})}$\footnote{on the following pages I set $\Theta{in} = 0$ and $\Theta{out}$ to the value given by the GLAD field calculator(Mass = 12, Charge = 6, Energy = 400 A/MeV, Current = 1444), see \url{http://web-docs.gsi.de/~land/glad/}.}\\ 
 From that follows:\\
 $\Delta\rho_{\Theta{out}} = -\rho\cdot \frac{1}{2\cdot\tan(\frac{\Theta{in}+\Theta{out}}{2})}\cdot\Delta\Theta{out}$\\
-with $\Delta\Theta{out} = 5.431e-04$\\
+with $\Delta\Theta_{out} = 3.401e-04$. This is the value calculated with LISE++ from MWPC1 to the very center of GLAD. 
 Hence:\\
-$\Big|\frac{\Delta\rho{\Theta{out}}}{\rho}\Big| = \frac{1}{2\cdot\tan(\frac{\Theta{in}+\Theta{out}}{2})}\cdot\Delta\Theta{out} = $1.724e-03
+$\Big|\frac{\Delta\rho{\Theta{out}}}{\rho}\Big| = \frac{1}{2\cdot\tan(\frac{\Theta{in}+\Theta{out}}{2})}\cdot\Delta\Theta{out} = $1.079e-03
 
 \subsection{Angular resolution of MWPC1/2}
 $\Delta\rho_{\Theta{in}} = -\rho\cdot \frac{1}{2\cdot\tan(\frac{\Theta{in}+\Theta{out}}{2})}\cdot\Delta\Theta{in}$ \\
@@ -638,8 +638,148 @@ $\Big|\frac{\Delta\rho_{\Theta_{in}}}{\rho}\Big| = $ 1.104e-03.
 \newline
 \newline
 Adding up the above errors quadratically we get:\\
-$\Big|\frac{\Delta\rho}{\rho}\Big| = \sqrt{(5.434\cdot10^{-4})^{2}+(1.724\cdot10^{-3})^{2}+(1.104\cdot10^{-3})^{2}} = 2.12\cdot10^{-3} $
- 
+$\Big|\frac{\Delta\rho}{\rho}\Big| = \sqrt{(5.434\cdot10^{-4})^{2}+(1.079\cdot10^{-3})^{2}+(1.104\cdot10^{-3})^{2}} = 1.64\cdot10^{-3} $
+
+\subsection{Scalability of the field}
+Using the sweep runs (39-61) with different GLAD currents, the scalability of the B-Field can be analyzed. In figure \ref{fig:scalar} B\textunderscore$\rho$  from GLAD calculator divided by the mean radius is plotted against the according current values.\\ 
+ \begin{figure}[!htb]
+	\includegraphics[width=0.7\textwidth]{scalar.png}
+	\caption{\label{fig:scalar}}
+	\label{fig:scalar}
+\end{figure}
+Taking the assumption that:\\
+$B = current \cdot k $ (with k being a constant)\\
+we get from the fit in \ref{fig:scalar}:\\
+slope = 0.000610713 \\
+offset = 0.0709244\\
+
+\section{Z versus A/q calculations}
+In this section the target RUNs 82,83,86,88 are analyzed with GLAD current = 1444 A, target = CH2 12.29 mm.\\
+Data is taken for the x-position on MW1,MW2 and MW3, time difference between START and TOFW Detector and charge value from TWIM Music.\\
+The radius of curvature in GLAD is computed using the "Advanced Fit Track" method. The time of flight is calculated using the time difference between START and TOFW with the respective offsets (for the TOF detector pads) and substracting from that the fime of flight between START detector and target. The latter is calculated using $\beta = 0.714549 (\equiv 400 A/MeV)$ and as distance between START and target  1183.25 mm.\\
+\newline
+Offsets used for RUNs 82 and 83 ( using sweep RUNs 39-61) and for RUNs 86 and 88 (using sweep run 36), respectively:\\
+\begin{tabular}{|c|c|c|c|}
+\hline
+Detnr. TOFW & Time offset 39-61 [s] & Time offset 36 [s] & Difference [s] \\
+\hline
+1      &	1.15079E-07 &	1.141E-07    &  -9.789E-10\\
+2	   &	1.13720E-07	&	1.13329E-07  &  -3.910E-10\\
+3	   &	1.16304E-07	&	1.15778E-07  &  -5.259E-10\\
+4 	   &	1.14539E-07	&	1.13983E-07  &  -5.560E-10\\
+5	   &	1.15420E-07	&	1.14922E-07  &  -4.979E-10\\
+6	   &	1.16052E-07	&	1.15593E-07  &  -4.590E-10\\
+7	   &	1.16903E-07	&   1.16486E-07  &  -4.169E-10\\
+8	   &	1.16143E-07	&   1.15781E-07  &  -3.620E-10\\
+9	   &	1.14394E-07	&   1.14067E-07  &  -3.270E-10\\
+10	   &	1.15967E-07	&   1.15691E-07  &  -2.759E-10\\
+11     & 	1.12559E-07	&   1.12337E-07  &  -2.220E-10\\
+12     &	1.15962E-07	&   1.15764E-07  &  -1.979E-10\\
+13     &	1.13521E-07	&   1.13372E-07  &  -1.489E-10\\
+14     &	1.15088E-07	&   1.14989E-07  &  -9.900E-11\\
+15	   &	1.13676E-07	&   1.18635E-07  &  4.958E-09\\
+16	   &	1.12992E-07	&   1.17986E-07  &  4.993E-09\\
+17	   &	1.14391E-07	&   1.19424E-07  &  5.033E-09\\
+18	   &	1.12076E-07	&   1.17168E-07  &  5.091E-09\\
+19	   &	1.13234E-07	&   1.18360E-07  &  5.126E-09\\
+20	   &	1.12760E-07	&   1.17933E-07  &  5.173E-09\\
+21	   &	1.16445E-07	&   1.21687E-07  &  5.242E-09\\
+22	   &	1.16877E-07	&   1.22138E-07  &  5.261E-09\\
+23	   &	1.16077E-07	&   1.21353E-07  &  5.275E-09\\
+24     &	1.16127E-07	&   1.21457E-07  &  5.329E-09\\
+25	   &	1.14855E-07	&   1.20219E-07  &  5.363E-09\\
+26	   &	1.14363E-07	&   1.19841E-07  &  5.477E-09\\
+27	   &	1.14435E-07	&   1.19932E-07  &  5.496E-09\\
+
+
+\hline
+
+\end{tabular}
+\newline
+
+The proceeding for the Z versus A/q calculations are:
+\begin{enumerate}
+\item Plot without any cuts/restrictions Z versus Radius using the "Fit-Track" method (see \ref{fig:isotopes} ).
+\item From that plot identify the various isotopes and cut on them. 
+\item Plot for each isotope theta\textunderscore out vs x\textunderscore 3 and make a linear fit (see \ref{fig:iso_fit}).
+\item Feed the "Advanced Fit-Track" method with the parameters of the fit for the various isotopes (which you can separate using the previously selected cuts).
+\item Calculate beta (using the above TOFW offsets) for the various isotopes and plot Z versus A/q. 
+\\ 
+\end{enumerate}
+\begin{figure}[!htb]
+	\centering
+	\includegraphics[width=0.7\textwidth]{isotope_separation.png}
+	\caption{Z versus Radius for RUN 88.}
+	\label{fig:isotopes}
+\end{figure}
+
+\begin{figure}[!htbp]
+\begin{subfigure}{.5\textwidth}
+  \centering
+  % include first image
+  \includegraphics[width=.9\linewidth]{theta_out_fit10B.png}  
+  \caption{theta\textunderscore out vs xMW3 for 10B.}
+  \label{fig:sub-first}
+\end{subfigure}
+\begin{subfigure}{.5\textwidth}
+  \centering
+  % include second image
+  \includegraphics[width=.9\linewidth]{theta_out_fit11B.png} 
+  \caption{theta\textunderscore out vs xMW3 for 11B.}
+  \label{fig:sub-second}
+\end{subfigure}
+\begin{subfigure}{.5\textwidth}
+  \centering
+  % include second image
+  \includegraphics[width=.9\linewidth]{theta_out_fit11C.png} 
+  \caption{theta\textunderscore out vs xMW3 for 11C.}
+  \label{fig:sub-second}
+\end{subfigure}
+\begin{subfigure}{.5\textwidth}
+  \centering
+  % include second image
+  \includegraphics[width=.9\linewidth]{theta_out_fit12C.png} 
+  \caption{theta\textunderscore out vs xMW3 for 12C.}
+  \label{fig:sub-second}
+\end{subfigure}
+\caption{theta\textunderscore out vs xMW3 for isotopes.}
+\label{fig:iso_fit}
+\end{figure}
+
+
+The cuts on the various isotopes in \ref{fig:isotopes} are:\\
+10B: $4.6 < Z < 5.26 and 6232 < R < 6770$\\
+11B: $4.43 < Z < 5.53 and 6877 < R < 7559$\\
+11C: $5.5< Z < 6.61 and 5670 < R < 5980$\\
+12C: $5.45 < Z < 6.7 and 6285 < R < 6780$\\
+\newline
+Using this cuts we get following fit parameters for the various isotopes:\\
+\newline
+\begin{tabular}{|c|c|c|c|}
+\hline
+Isotope & $\alpha$ & a (= slope) & b (=offset) \\
+\hline
+\textbf{10B:} & 0.32 & 0.000144005 & 0.327681\\
+\hline
+\textbf{11B:} & 0.2932 & 0.000139928 & 0.313335\\
+\hline
+\textbf{11C:} & 0.348 & 0.000146679 & 0.34352\\
+\hline
+\textbf{12C:} & 0.3179 & 0.00014353 & 0.326665\\
+\hline
+\end{tabular}
+\\
+Separating the isotopes by the above charge and radius cuts and using the appropriate $\alpha$, a and b parameters the Radius gets recalculated via the "Advanced Fit-Track" method. The new value for the radius is now used in the A/q calculation:\\
+A/q = $\frac{B \cdot \rho \cdot e}{\gamma\cdot\beta \cdot c \cdot u}$ \\
+with:\\
+$e$: elementary charge = $1.602176634\cdot10^{-19}$C\\
+$c$: speed of light = 299792458 m/s\\
+$u$: atomic mass unit = $1.66053906660\cdot10^{-27}$kg\\
+In figure you 
+
+
+
+
 
 
 \end{document}
