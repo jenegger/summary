@@ -769,10 +769,10 @@ The proceeding for the Z versus A/q calculations are:
 
 
 The cuts on the various isotopes in \ref{fig:isotopes} are:\\
-10B: $4.6 < Z < 5.26 and 6232 < R < 6770$\\
-11B: $4.43 < Z < 5.53 and 6877 < R < 7559$\\
-11C: $5.5< Z < 6.61 and 5670 < R < 5980$\\
-12C: $5.45 < Z < 6.7 and 6285 < R < 6780$\\
+10B: $4.67 < Z < 5.22$ and $6266 < \rho < 6735$\\
+11B: $4.61 < Z < 5.25$ and $6888 < \rho < 7363$\\
+11C: $5.75 < Z < 6.38$ and $5774 < \rho < 6189$\\
+12C: $5.57 < Z < 6.43$ and $6295 < \rho < 6768$\\
 \newline
 Using this cuts we get following fit parameters for the various isotopes:\\
 \newline
@@ -790,27 +790,66 @@ Isotope & $\alpha$ & a (= slope) & b (=offset) \\
 \hline
 \end{tabular}
 \\
+\newline
 Separating the isotopes by the above charge and radius cuts and using the appropriate $\alpha$, a and b parameters the Radius gets recalculated via the "Advanced Fit-Track" method. The new value for the radius is now used in the A/q calculation:\\
 A/q = $\frac{B \cdot \rho \cdot e}{\gamma\cdot\beta \cdot c \cdot u}$ \\
 with:\\
 $e$: elementary charge = $1.602176634\cdot10^{-19}$C\\
 $c$: speed of light = 299792458 m/s\\
 $u$: atomic mass unit = $1.66053906660\cdot10^{-27}$kg\\
-In figure you 
-....work in progress
+In figure \ref{fig:z_vs_aq} the separated isotopes are shown.
+\begin{figure}[!htb]
+	\centering
+	\includegraphics[width=0.7\textwidth]{z_vs_aq_combined.png}
+	\caption{Z versus A/q for runs 82, 83, 86, 88 with target CH2 12.29 mm.}
+	\label{fig:z_vs_aq}
+\end{figure}
+
+\begin{figure}[!htbp]
+\begin{subfigure}{.5\textwidth}
+  \centering
+  % include first image
+  \includegraphics[width=.9\linewidth]{z_vs_aq_12c.png}  
+  \caption{$5.57 < q < 6.43$; $6295 < \rho < 6768$}
+  \label{fig:sub-first}
+\end{subfigure}
+\begin{subfigure}{.5\textwidth}
+  \centering
+  % include second image
+  \includegraphics[width=.9\linewidth]{z_vs_aq_11c.png} 
+  \caption{$5.75 < q < 6.38$; $ 5774 < \rho < 6189$}
+  \label{fig:sub-second}
+\end{subfigure}
+\begin{subfigure}{.5\textwidth}
+  \centering
+  % include second image
+  \includegraphics[width=.9\linewidth]{z_vs_aq_11b.png} 
+  \caption{$4.61 < q < 5.25$; $6888 < \rho < 7363$}
+  \label{fig:sub-second}
+\end{subfigure}
+\begin{subfigure}{.5\textwidth}
+  \centering
+  % include second image
+  \includegraphics[width=.9\linewidth]{z_vs_aq_10b.png} 
+  \caption{$4.67 < q < 5.22$; $ 6266 < \rho < 6735$}
+  \label{fig:sub-second}
+\end{subfigure}
+\caption{Z versus A/q for runs 82, 83, 86, 88 with target CH2 12.29 mm.}
+\label{fig:iso_fit}
+\end{figure}
 
 
 \subsection{Limiting Mass number resolution factors}
 From the formula:\\
 A/q = $\frac{B \cdot \rho \cdot e}{\gamma\cdot\beta \cdot c \cdot u}$ \\
-we can see that the determination of A/q is limited by the radius $\rho$ and time measurement.\\
+we can see that the determination of A/q is limited by the radius $\rho$ and time measurement (and the combined pathlength = $\rho\cdot \omega$. Here it is omitted, as the trajectory fluctuations are 2nd or 3rd order).\\
 That means:\\
 \newline
 $\Big|\frac{\Delta A/q}{A/q}\Big| = \sqrt{\big|\frac{\Delta A/q_{\rho}}{A/q}\big|^{2} + \big|\frac{\Delta A/q_{t}}{A/q}\big|^{2} }$ \\
 with:\\
 $\big|\frac{\Delta A/q_{\rho}}{A/q}\big| = \big|\frac{\Delta\rho}{\rho}\big|$\\
 and\\
-$\big|\frac{\Delta A/q_{t}}{A/q}\big| = \frac{\Delta t}{t\cdot(1-\beta^{2})}$ \footnote{$d\beta = -\frac{s}{c\cdot t^{2}}\Delta t = -\frac{\beta \cdot \Delta t}{t}$;$\frac{dA/q}{d\beta} = -B\cdot\rho\cdot\frac{1}{\beta^{2}\cdot\sqrt{1-\beta^{2}}}\Delta\beta = \frac{B\cdot \rho}{\beta \cdot t \cdot \sqrt{1-\beta^{2}}}\cdot \Delta t$}\\
+$\big|\frac{\Delta A/q_{t}}{A/q}\big| = \frac{\Delta t}{t\cdot(1-\beta^{2})}$ \footnote{$d\beta = -\frac{s}{c\cdot t^{2}}\Delta t = -\frac{\beta \cdot \Delta t}{t}$;\hspace{1cm}$\frac{dA/q}{d\beta} = -B\cdot\rho\cdot\frac{1}{\beta^{2}\cdot\sqrt{1-\beta^{2}}}\Delta\beta = \frac{B\cdot \rho}{\beta \cdot t \cdot \sqrt{1-\beta^{2}}}\cdot \Delta t$}\\
 $\Delta t = 0.07ns$ corresponds to the resolution of the time measurement of the TOFW.\\
 The formula above just considers the time of flight in which the ions experience a force when moving through a magnetic field. That means $t$  corresponds to the time of flight of the ions through the GLAD magnet and is calculated by:\\
 $t = \frac{S_{GLAD}}{\beta} \approx \frac{\rho \cdot \omega}{\beta_{400A/MeV}\cdot c} = \frac{2.09m}{0.714549\cdot c} = 9.75\cdot10^{-9}s$\\

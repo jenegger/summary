@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.7.31)  23 SEP 2020 13:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.7.31)  23 SEP 2020 16:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -824,6 +824,33 @@ LaTeX Warning: Label `fig:sub-second' multiply defined.
 
 
 LaTeX Warning: Label `sub@fig:sub-second' multiply defined.
+
+
+LaTeX Warning: Label `fig:sub-first' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:sub-first' multiply defined.
+
+
+LaTeX Warning: Label `fig:sub-second' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:sub-second' multiply defined.
+
+
+LaTeX Warning: Label `fig:sub-second' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:sub-second' multiply defined.
+
+
+LaTeX Warning: Label `fig:sub-second' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:sub-second' multiply defined.
+
+
+LaTeX Warning: Label `fig:iso_fit' multiply defined.
 
 )
 \openout1 = `doc_rad_calc.aux'.
@@ -1725,49 +1752,94 @@ Overfull \hbox (2.61107pt too wide) in paragraph at lines 738--766
 []$ $[]$ 
  []
 
+<z_vs_aq_combined.png, id=371, 1662.21pt x 874.26625pt>
+File: z_vs_aq_combined.png Graphic file (type png)
+<use z_vs_aq_combined.png>
+Package pdftex.def Info: z_vs_aq_combined.png  used on input line 803.
+(pdftex.def)             Requested size: 328.82707pt x 172.94249pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 771--801
+Underfull \hbox (badness 10000) in paragraph at lines 771--807
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 771--801
+Underfull \hbox (badness 10000) in paragraph at lines 771--807
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 771--807
 
  []
 
 [25] [26 <./isotope_separation.png> <./theta_out_fit10B.png> <./theta_out_fit11
 B.png> <./theta_out_fit11C.png> <./theta_out_fit12C.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 804--820
+<z_vs_aq_12c.png, id=388, 1662.21pt x 874.26625pt>
+File: z_vs_aq_12c.png Graphic file (type png)
+<use z_vs_aq_12c.png>
+Package pdftex.def Info: z_vs_aq_12c.png  used on input line 812.
+(pdftex.def)             Requested size: 211.3883pt x 111.17732pt.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <10.95> on input line 813.
+<z_vs_aq_11c.png, id=389, 1662.21pt x 874.26625pt>
+File: z_vs_aq_11c.png Graphic file (type png)
+<use z_vs_aq_11c.png>
+Package pdftex.def Info: z_vs_aq_11c.png  used on input line 819.
+(pdftex.def)             Requested size: 211.3883pt x 111.17732pt.
+<z_vs_aq_11b.png, id=390, 1662.21pt x 874.26625pt>
+File: z_vs_aq_11b.png Graphic file (type png)
+<use z_vs_aq_11b.png>
+Package pdftex.def Info: z_vs_aq_11b.png  used on input line 826.
+(pdftex.def)             Requested size: 211.3883pt x 111.17732pt.
+<z_vs_aq_10b.png, id=391, 1662.21pt x 874.26625pt>
+File: z_vs_aq_10b.png Graphic file (type png)
+<use z_vs_aq_10b.png>
+Package pdftex.def Info: z_vs_aq_10b.png  used on input line 833.
+(pdftex.def)             Requested size: 211.3883pt x 111.17732pt.
+
+Overfull \hbox (2.61107pt too wide) in paragraph at lines 809--837
+[]$[]$ $[]$
+ []
+
+
+Overfull \hbox (2.61107pt too wide) in paragraph at lines 809--837
+[]$ $[]$ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 843--859
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 804--820
+Underfull \hbox (badness 10000) in paragraph at lines 843--859
 
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 824.
-[27]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 824.
+[27 <./z_vs_aq_combined.png>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 863.
+ [28 <./z_vs_aq_12c.png> <./z_vs_aq_11c.png> <./z_vs_aq_11b.png> <./z_vs_aq_10b
+.png>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 863.
  (./doc_rad_calc.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 824.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 824.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 863.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 863.
 Package rerunfilecheck Info: File `doc_rad_calc.out' has not changed.
 (rerunfilecheck)             Checksum: 4841BD52D7188B5C6B7606331138EA47;2703.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 824.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 863.
  ) 
 Here is how much of TeX's memory you used:
- 6967 strings out of 494880
- 109966 string characters out of 6179601
- 191009 words of memory out of 5000000
- 10082 multiletter control sequences out of 15000+600000
- 9276 words of font info for 33 fonts, out of 8000000 for 9000
+ 6999 strings out of 494880
+ 110569 string characters out of 6179601
+ 192174 words of memory out of 5000000
+ 10106 multiletter control sequences out of 15000+600000
+ 9892 words of font info for 35 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 42i,8n,40p,580b,471s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 42i,8n,40p,580b,508s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texl
@@ -1787,10 +1859,10 @@ f-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist
 type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
 ublic/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
 msfonts/cm/cmtt10.pfb>
-Output written on doc_rad_calc.pdf (28 pages, 2697993 bytes).
+Output written on doc_rad_calc.pdf (29 pages, 2823712 bytes).
 PDF statistics:
- 477 PDF objects out of 1000 (max. 8388607)
- 356 compressed objects within 4 object streams
- 96 named destinations out of 1000 (max. 500000)
- 560 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 490 PDF objects out of 1000 (max. 8388607)
+ 363 compressed objects within 4 object streams
+ 99 named destinations out of 1000 (max. 500000)
+ 585 words of extra memory for PDF output out of 10000 (max. 10000000)
 
