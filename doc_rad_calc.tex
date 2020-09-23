@@ -800,7 +800,25 @@ In figure you
 ....work in progress
 
 
+\subsection{Limiting Mass number resolution factors}
+From the formula:\\
+A/q = $\frac{B \cdot \rho \cdot e}{\gamma\cdot\beta \cdot c \cdot u}$ \\
+we can see that the determination of A/q is limited by the radius $\rho$ and time measurement.\\
+That means:\\
+\newline
+$\Big|\frac{\Delta A/q}{A/q}\Big| = \sqrt{\big|\frac{\Delta A/q_{\rho}}{A/q}\big|^{2} + \big|\frac{\Delta A/q_{t}}{A/q}\big|^{2} }$ \\
+with:\\
+$\big|\frac{\Delta A/q_{\rho}}{A/q}\big| = \big|\frac{\Delta\rho}{\rho}\big|$\\
+and\\
+$\big|\frac{\Delta A/q_{t}}{A/q}\big| = \frac{\Delta t}{t\cdot(1-\beta^{2})}$ \footnote{$d\beta = -\frac{s}{c\cdot t^{2}}\Delta t = -\frac{\beta \cdot \Delta t}{t}$;$\frac{dA/q}{d\beta} = -B\cdot\rho\cdot\frac{1}{\beta^{2}\cdot\sqrt{1-\beta^{2}}}\Delta\beta = \frac{B\cdot \rho}{\beta \cdot t \cdot \sqrt{1-\beta^{2}}}\cdot \Delta t$}\\
+$\Delta t = 0.07ns$ corresponds to the resolution of the time measurement of the TOFW.\\
+The formula above just considers the time of flight in which the ions experience a force when moving through a magnetic field. That means $t$  corresponds to the time of flight of the ions through the GLAD magnet and is calculated by:\\
+$t = \frac{S_{GLAD}}{\beta} \approx \frac{\rho \cdot \omega}{\beta_{400A/MeV}\cdot c} = \frac{2.09m}{0.714549\cdot c} = 9.75\cdot10^{-9}s$\\
+$\big|\frac{\Delta A/q_{t}}{A/q}\big| = \frac{7 \cdot10^{-11}}{9.75\cdot10^{-9}(1-0.714549^{2})} = 1.47\cdot10^{-2}$\\
+\newline
+$\Big|\frac{\Delta A/q}{A/q}\Big| = \sqrt{(1.47\cdot10^{-2})^{2}+(1.64\cdot10^{-3})^{2}} = 1.48 \cdot 10^{-2}$
 
+ 
 
 
 \end{document}
