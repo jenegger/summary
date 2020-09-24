@@ -2,6 +2,7 @@
 \usepackage[utf8]{inputenc}
 \usepackage[pdftex]{graphicx}
 \usepackage{xspace}
+\usepackage[stable]{footmisc}
 \usepackage{hyperref}
 \usepackage{fullpage}
 \usepackage{subcaption}
@@ -839,23 +840,42 @@ In figure \ref{fig:z_vs_aq} the separated isotopes are shown.
 \end{figure}
 
 
-\subsection{Limiting Mass number resolution factors}
+\subsection{Limiting Mass number resolution factors\footnote{This analysis was done with RUN 88, CH2 target, 12.29mm, GLAD current = 1444 A.}}
+
 From the formula:\\
 A/q = $\frac{B \cdot \rho \cdot e}{\gamma\cdot\beta \cdot c \cdot u}$ \\
-we can see that the determination of A/q is limited by the radius $\rho$ and time measurement (and the combined pathlength = $\rho\cdot \omega$. Here it is omitted, as the trajectory fluctuations are 2nd or 3rd order).\\
+we can see that the determination of A/q is limited by the radius $\rho$ and time measurement and path calculation .\\
 That means:\\
 \newline
-$\Big|\frac{\Delta A/q}{A/q}\Big| = \sqrt{\big|\frac{\Delta A/q_{\rho}}{A/q}\big|^{2} + \big|\frac{\Delta A/q_{t}}{A/q}\big|^{2} }$ \\
+$\Big|\frac{\Delta A/q}{A/q}\Big| = \sqrt{\big|\frac{\Delta A/q_{\rho}}{A/q}\big|^{2} + \big|\frac{\Delta A/q_{t}}{A/q}\big|^{2} +\big|\frac{\Delta A/q_{s}}{A/q} \big|^{2}  }$ \\
 with:\\
 $\big|\frac{\Delta A/q_{\rho}}{A/q}\big| = \big|\frac{\Delta\rho}{\rho}\big|$\\
 and\\
 $\big|\frac{\Delta A/q_{t}}{A/q}\big| = \frac{\Delta t}{t\cdot(1-\beta^{2})}$ \footnote{$d\beta = -\frac{s}{c\cdot t^{2}}\Delta t = -\frac{\beta \cdot \Delta t}{t}$;\hspace{1cm}$\frac{dA/q}{d\beta} = -B\cdot\rho\cdot\frac{1}{\beta^{2}\cdot\sqrt{1-\beta^{2}}}\Delta\beta = \frac{B\cdot \rho}{\beta \cdot t \cdot \sqrt{1-\beta^{2}}}\cdot \Delta t$}\\
-$\Delta t = 0.07ns$ corresponds to the resolution of the time measurement of the TOFW.\\
-The formula above just considers the time of flight in which the ions experience a force when moving through a magnetic field. That means $t$  corresponds to the time of flight of the ions through the GLAD magnet and is calculated by:\\
-$t = \frac{S_{GLAD}}{\beta} \approx \frac{\rho \cdot \omega}{\beta_{400A/MeV}\cdot c} = \frac{2.09m}{0.714549\cdot c} = 9.75\cdot10^{-9}s$\\
-$\big|\frac{\Delta A/q_{t}}{A/q}\big| = \frac{7 \cdot10^{-11}}{9.75\cdot10^{-9}(1-0.714549^{2})} = 1.47\cdot10^{-2}$\\
+$\Delta t$ corresponds to the resolution of the time measurement of the TOFW.\\
+As we do not just measure the time of flight in the presence of the magnetic field of GLAD, but the entire flightpath, we use for $t$ the time of flight from target to the ToFW and as $s$ the calculated pathlength. \\
+$t = \frac{s}{\beta\cdot c} =  \frac{7.547m}{0.714549\cdot c} = 3.54\cdot10^{-8}s$\\
+with 7.547m being the mean pathlength for 12C.\\
+When fitting the time of flight we get a resolution of $\sigma_{t} = 9.204 \cdot 10^{-2}ns$\\
+From that follows a relative error due to the time resolution:\\
+$\big|\frac{\Delta A/q_{t}}{A/q}\big| = \frac{9.12 \cdot10^{-11}}{3.54\cdot10^{-8}(1-0.714549^{2})} = 5.31\cdot10^{-3}$\\
 \newline
-$\Big|\frac{\Delta A/q}{A/q}\Big| = \sqrt{(1.47\cdot10^{-2})^{2}+(1.64\cdot10^{-3})^{2}} = 1.48 \cdot 10^{-2}$
+From fit we get  for  $\big|\frac{\Delta A/q_{\rho}}{A/q}\big| = \frac{11.91}{6554.7} = 1.82\cdot 10^{-3}$ with $11.91$ being the $ \sigma_{\rho}$ and $6554.7$ the $\rho_{mean}$ values in mm.\\
+\newline
+$\big|\frac{\Delta A/q_{s}}{A/q}\big| = \frac{\Delta s}{s\cdot \sqrt{1- \beta}}$
+As main source of error for the pathlenght it is assumed to be the reconstruction of the radius and therefore the main source of error is $\rho \cdot \omega$ which is about 2.09m. From that we calculate: 
+$\Delta s = \frac{2.09}{6.5547}\cdot \sigma_{\rho} = 3.798mm $ \\
+Hence:\\
+$\big|\frac{\Delta A/q_{s}}{A/q}\big| = 1.03 \cdot 10^{-3}$\\
+\newline
+Summing up all errors quadratically we get:\\
+$\Big|\frac{\Delta A/q}{A/q}\Big| = \sqrt{ (5.31\cdot 10^{-3})^{2} + (1.82 \cdot 10^{-3})^{2} + (1.03 \cdot 10^{-3})^{2}} = 5.7 \cdot 10^{-3}$ \\ 
+\newline
+From the fit of the data plot Z vs. A/q we get:\\
+$\Big|\frac{\Delta A/q}{A/q}\Big| = \frac{\sigma_{A/q}}{A/q_{mean}} = 1.25 \cdot 10^{-2}/1.976 = 6.33 \cdot 10^{-3}$\\
+\newline
+As we see the estimated resolution factor is slightly smaller than the one from the data fit. It could be that the resolution factor for the pathlength was underestimated.\\
+
 
  
 
