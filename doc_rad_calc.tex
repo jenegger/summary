@@ -665,7 +665,7 @@ This result coincides well with the predicted one and confirms that the predomin
 \section{Scalability of the field}
 Using the sweep runs (39-61) with different GLAD currents, the scalability of the B-Field can be analyzed. In figure \ref{fig:scalar} B\textunderscore$\rho$  from GLAD calculator divided by the mean radius is plotted against the according current values.\\ 
  \begin{figure}[!htb]
-	\includegraphics[width=0.7\textwidth]{scalar.png}
+	\includegraphics[width=0.8\textwidth]{scalar.png}
 	\caption{\label{fig:scalar}}
 	\label{fig:scalar}
 \end{figure}
@@ -674,6 +674,12 @@ $B = current \cdot k $ (with k being a constant)\\
 we get from the fit in \ref{fig:scalar}:\\
 slope = 0.000610713 \\
 offset = 0.0709244\\
+When plotting the proprotional factor $k$ (which is equal to $\frac{Brho}{I\rho}$, with $Brho$ from GLAD calculator and $\rho$ equal to the mean radius for each run) for each RUN versus the current and adding the proprotional factor from the fit as a straight line, we can see in figure \ref{fig:factor_k} that the factor $k$ from the fit seems to be slightly underestimated. \\
+\begin{figure}[!htb]
+	\includegraphics[width=0.8\textwidth]{curent_vs_k_factor.png}
+	\caption{\label{fig:factor_k}}
+	\label{fig:factor_k}
+\end{figure}
 
 \section{Z versus A/q calculations}
 In this section the target RUNs 82,83,86,88 are analyzed with GLAD current = 1444 A, target = CH2 12.29 mm.\\
@@ -802,7 +808,7 @@ In figure \ref{fig:z_vs_aq} the separated isotopes are shown.
 \begin{figure}[!htb]
 	\centering
 	\includegraphics[width=0.7\textwidth]{z_vs_aq_combined.png}
-	\caption{Z versus A/q for runs 82, 83, 86, 88 with target CH2 12.29 mm.}
+	\caption{Z versus A/q for run 88 with target CH2 12.29 mm.}
 	\label{fig:z_vs_aq}
 \end{figure}
 
@@ -840,7 +846,7 @@ In figure \ref{fig:z_vs_aq} the separated isotopes are shown.
 \end{figure}
 
 
-\subsection{Limiting Mass number resolution factors\footnote{This analysis was done with RUN 88, CH2 target, 12.29mm, GLAD current = 1444 A.}}
+\subsection{Limiting Mass number resolution factors\footnote{This analysis was done with RUN 88, CH2 target, 12.29mm, GLAD current = 1444 A on the isotope 12C}}
 
 From the formula:\\
 A/q = $\frac{B \cdot \rho \cdot e}{\gamma\cdot\beta \cdot c \cdot u}$ \\
@@ -874,10 +880,20 @@ $\Big|\frac{\Delta A/q}{A/q}\Big| = \sqrt{ (5.31\cdot 10^{-3})^{2} + (1.82 \cdot
 From the fit of the data plot Z vs. A/q we get:\\
 $\Big|\frac{\Delta A/q}{A/q}\Big| = \frac{\sigma_{A/q}}{A/q_{mean}} = 1.25 \cdot 10^{-2}/1.976 = 6.33 \cdot 10^{-3}$\\
 \newline
-As we see the estimated resolution factor is slightly smaller than the one from the data fit. It could be that the resolution factor for the pathlength was underestimated.\\
+As we see the estimated resolution factor is slightly smaller than the one from the data fit. It could be that the resolution factor for the pathlength was underestimated or that these small deviations come from binning effects.\\
 
+\subsubsection{Z vs A/q resolution for all isotopes - summary}
 
- 
+\subsection{z versus A/q calculations with fixed $\beta$}
+In the previous section I used both reconstructed pathlength and time of flight from data to compute the $\beta$ value for each event. In this section I use a fixed $\beta = 0.714549 (i.e. 400 A/MeV)$ to calculate A/q. This simplifies the error calculation:\\
+\newline
+$\Big|\frac{\Delta A/q}{A/q}\Big| = \Big|\frac{\Delta \rho}{\rho}\Big|$ \\
+\newline
+That means the relative  resolution of A/q should be the same as for $\rho$.\\
+From the plots we get follwing resolutions for A/q and for $\rho$:\\
+
+\subsubsection{Time of Flight versus A/q}
+
 
 
 \end{document}

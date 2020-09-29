@@ -30,4 +30,7 @@
 \BOOKMARK [2][-]{subsection.6.4}{Limiting Radius resolution factors on data}{section.6}% 30
 \BOOKMARK [1][-]{section.7}{Scalability of the field}{}% 31
 \BOOKMARK [1][-]{section.8}{Z versus A/q calculations}{}% 32
-\BOOKMARK [2][-]{subsection.8.1}{Limiting Mass number resolution factorsThis analysis was done with RUN 88, CH2 target, 12.29mm, GLAD current = 1444 A.}{section.8}% 33
+\BOOKMARK [2][-]{subsection.8.1}{Limiting Mass number resolution factorsThis analysis was done with RUN 88, CH2 target, 12.29mm, GLAD current = 1444 A on the isotope 12C}{section.8}% 33
+\BOOKMARK [3][-]{subsubsection.8.1.1}{Z vs A/q resolution for all isotopes - summary}{subsection.8.1}% 34
+\BOOKMARK [2][-]{subsection.8.2}{z versus A/q calculations with fixed }{section.8}% 35
+\BOOKMARK [3][-]{subsubsection.8.2.1}{Time of Flight versus A/q}{subsection.8.2}% 36
