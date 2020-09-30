@@ -1,4 +1,5 @@
 \documentclass[12pt, letterpaper]{article}
+\usepackage[toc,page]{appendix}
 \usepackage[utf8]{inputenc}
 \usepackage[pdftex]{graphicx}
 \usepackage{xspace}
@@ -980,8 +981,8 @@ When looking at the formula:\\
 A/q = $\frac{B \cdot \rho \cdot e}{\gamma\cdot\beta \cdot c \cdot u}$ \\
 we can reconstruct that if setting $\gamma$ and $\beta$ as fixed values A/q will increase for isotopes with high velocity ( short time of flight) and vice versa. Figure \ref{fig:aq_tof_fix} reflects this behavior.\\
 Using instead the time of flight and the reconstructed pathlength for each event for the calculation of $\gamma$ and $\beta$ in the A/q calculation it is expected to vertically straighten the plots. This is the case, see figure \ref{fig:aq_tof}. But the plots smear out a lot ($\big|\frac{\Delta A/q_{t}}{A/q}\big|$ is the major source of error. This was already shown in previous sections). Hence the calculation of A/q with fixed $\beta$ (and $\gamma$) is preferred. 
-
-\begin{appendix}
+\newpage
+\begin{appendices}
 \section{Radius resolution with minimal constraints}
 When using minimal constraints (one single fX entry in MWPC0,1,2,3; instead of requiring also one single entry in fY for MW0,1,2,3) for events in sweep RUN 39-61 the resolution for the radius  determination improves:\\
 \\
@@ -1005,8 +1006,30 @@ Runnr. & $\overline{\rho}$ & $\sigma$ & rel. resolution \\
 \hline
 
 \end{tabular}
+\\
+\newline
+With the exception of RUN 39 (why??) the resolution improve with low constraints. This could be due to the lower angular straggling inpact when particles don't hit/interact with the y-wires of the MWPCs.\\
+\begin{figure}[!htb]
+	\centering
+	\includegraphics[width=0.9\textwidth]{mw3_vs_rad_low_const.png}
+	\caption{MW3.fX vs GLAD Radius for RUNs 39-61 with low constraints.}
+	\label{fig:mw3_rad_low_const}
+\end{figure}
 
-\end{appendix}
+\begin{figure}[!htb]
+	\centering
+	\includegraphics[width=0.9\textwidth]{theta_in_rad_low_constr.png}
+	\caption{Theta\textunderscore in vs GLAD Radius for RUNs 39-61 with low constraints.}
+	\label{fig:theta_in_rad_low_const}
+\end{figure}
+
+\begin{figure}[!htb]
+	\centering
+	\includegraphics[width=0.9\textwidth]{theta_out_vs_rad_low_constr.png}
+	\caption{Theta\textunderscore out vs GLAD Radius for RUNs 39-61 with low constraints.}
+	\label{fig:theta_out_rad_low_const}
+\end{figure}
+\end{appendices}
 \end{document}
 
 
