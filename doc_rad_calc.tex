@@ -681,7 +681,7 @@ When plotting the proprotional factor $k$ (which is equal to $\frac{Brho}{I\rho}
 	\caption{\label{fig:factor_k}}
 	\label{fig:factor_k}
 \end{figure}
-
+\newpage
 \section{Z versus A/q calculations}
 In this section the target RUNs 82,83,86,88 are analyzed with GLAD current = 1444 A, target = CH2 12.29 mm.\\
 Data is taken for the x-position on MW1,MW2 and MW3, time difference between START and TOFW Detector and charge value from TWIM Music.\\
@@ -1029,6 +1029,88 @@ With the exception of RUN 39 (why??) the resolution improve with low constraints
 	\caption{Theta\textunderscore out vs GLAD Radius for RUNs 39-61 with low constraints.}
 	\label{fig:theta_out_rad_low_const}
 \end{figure}
+\newpage
+\section{Time of Flight Calibration}
+To make the Time of Flight(ToF) calibration, two methods were used:\\
+\begin{enumerate}
+\item Calculate the ToF resolution = pathlength(for plastic)/(velocity) where the pathlength is a fixed parameter for each plastic while velocity = pathlength/calibrated time of flight (for each event).
+\item To remove events with large deviations in the y direction in MWPC3 a cut was made on MWPC3.fY: -20 $<$ f.Y $<$ 20 (mm)
+\newline
+Using the first method we get following ToF resolutions:\\
+\begin{tabular}{|c|c|c|}
+\hline
+Detectornr. TOFW & mean ToF $[ns]$ &  Std\textunderscore dev $[ns]$ \\
+\hline
+1    &     4.64761e+01       &      3.81923e-01	\\
+2    &     4.64675e+01       &      3.67167e-01	\\
+3    &     4.63957e+01       &      7.76052e-02	\\
+4    &     4.63900e+01       &      6.73563e-02	\\
+5    &     4.63862e+01       &      1.00703e-01	\\
+6    &     4.63625e+01       &      6.97601e-02	\\
+7    &     4.63563e+01       &      7.85820e-02	\\
+8    &     4.63437e+01       &      8.22121e-02	\\
+9    &     4.63391e+01       &      8.67345e-02	\\
+10   &     4.63271e+01       &      1.57514e-01	\\
+11   &     4.63336e+01       &      1.34324e-01	\\
+12   &     4.63184e+01       &      1.16769e-01	\\
+13   &     4.63244e+01       &      1.04881e-01	\\
+14   &     4.63157e+01       &      9.15921e-02	\\
+15   &     4.63137e+01       &      8.36279e-02	\\
+16   &     4.63184e+01       &      9.34706e-02	\\
+17   &     4.63183e+01       &      9.16414e-02	\\
+18   &     4.63281e+01       &      1.60578e-01	\\
+19   &     4.63294e+01       &      1.06840e-01	\\
+20   &     4.63203e+01       &      1.19530e-01	\\
+21   &     4.63625e+01       &      5.28339e-01	\\
+22   &     4.63434e+01       &      9.61574e-02	\\
+23   &     4.63285e+01       &      1.00733e-01	\\
+24   &     4.63771e+01       &      1.43214e-01	\\
+25   &     4.63691e+01       &      9.87333e-02	\\
+26   &     4.63947e+01       &      3.17881e-01	\\
+27   &     4.63994e+01       &      7.93419e-02	\\
+\hline
+\end{tabular}
+\newline
+\\
+Using the second methods with strict constraints on MWPC3.fY we get:\\
+\begin{tabular}{|c|c|c|c|}
+\hline
+Detectornumber (TOFW)      &     Meanval $[ns]$       &         Std\textunderscore dev $[ns]$  &      No. of Events\\
+1   &  46.61        &  0             &  1    \\      
+2   &  4.64900e+01  &  1.43336e-01   &  22   \\       
+3   &  4.65016e+01  &  7.35427e-02   &  1402 \\       
+4   &  4.65008e+01  &  7.16455e-02   &  925  \\          
+5   &  4.64769e+01  &  9.06103e-02   &  190  \\       
+6   &  4.64772e+01  &  6.89027e-02   &  2536 \\     
+7   &  4.64662e+01  &  7.08772e-02   &  264  \\          
+8   &  4.64608e+01  &  8.49612e-02   &  879  \\         
+9   &  4.64600e+01  &  8.13301e-02   &  1744 \\      
+10  &  4.64793e+01  &  1.59559e-01   &  84   \\      
+11  &  4.64527e+01  &  1.38096e-01   &  1920 \\        
+12  &  4.64527e+01  &  1.24507e-01   &  563  \\        
+13  &  4.64487e+01  &  7.71276e-02   &  505  \\       
+14  &  4.64596e+01  &  1.00582e-01   &  2536 \\       
+15  &  4.64662e+01  &  7.93961e-02   &  3034 \\        
+16  &  4.64687e+01  &  8.62515e-02   &  1500 \\      
+17  &  4.64790e+01  &  8.80871e-02   &  2988 \\     
+18  &  4.64777e+01  &  1.13045e-01   &  164  \\       
+19  &  4.65012e+01  &  9.91565e-02   &  1845 \\   
+20  &  4.64933e+01  &  1.16504e-01   &  1696 \\     
+21  &  4.64629e+01  &  4.95801e-01   &  183  \\        
+22  &  4.65383e+01  &  9.55104e-02   &  2840 \\        
+23  &  4.65253e+01  &  1.16294e-01   &  352  \\     
+24  &  4.65977e+01  &  1.82543e-01   &  868  \\        
+25  &  4.65789e+01  &  1.09101e-01   &  2235 \\        
+26  &  4.65862e+01  &  1.88742e-01   &  65   \\    
+27  &  4.66393e+01  &  7.99918e-02   &  1739 \\      
+\hline
+\end{tabular}
+\newline
+\\
+From the second method we get a mean value for the std\textunderscore dev. of 0.121 ns (neglecting the std\textunderscore dev. for Detnr. 1, as we just have one event there).\\
+Without Detnr. 21, which doesn't have a good resolution, we get a mean std \textunderscore dev. of 0.105 ns.\\
+
+\end{enumerate}
 \end{appendices}
 \end{document}
 
