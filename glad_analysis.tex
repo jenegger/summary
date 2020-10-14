@@ -57,6 +57,22 @@ Run 62 could not be used to compare with RUN 53 (1444A), as the GLAD current was
 \end{subfigure}
 \end{figure}
 
-Taking sweep RUNS 39-61 
+Taking sweep RUNS 39-61 we get following plot for B-Field versus Current (where the B-Field is calculated from given Brho divided by the calculated mean radius for given current):\\
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=.9\linewidth]{scale_glad.png}
+	\caption{"Current vs B-Field"}
+\end{figure}
+\\
+As the GLAD current can just be tuned in multiple steps of 19A, the Current value for RUN 39 falls out of the range. Most probably that was a typo. Making same plot but changing the Current number of RUN 39 to 1482 Ampere we get:\\
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=.9\linewidth]{scale_glad_corr.png}
+	\caption{"Current vs B-Field, setting I = 1482 for RUN39."}
+\end{figure}
+\\
+Using as current 1482 for RUN 39 we get from the linear fit going through (0,0) as slope $k = 0.000657193$ (with B $= k \cdot I$).
+Plotting $k = $ Brho/(rho$\cdot$ current) we get the proportional factor $k$ for each RUN:
+
 
 \end{document}

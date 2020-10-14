@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.7.31)  14 OCT 2020 11:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.7.31)  14 OCT 2020 12:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -679,42 +679,55 @@ Underfull \hbox (badness 10000) in paragraph at lines 46--58
 []$[]$
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 60.
+<scale_glad.png, id=21, 1443.9546pt x 770.10912pt>
+File: scale_glad.png Graphic file (type png)
+<use scale_glad.png>
+Package pdftex.def Info: scale_glad.png  used on input line 63.
+(pdftex.def)             Requested size: 422.77664pt x 225.47633pt.
+<scale_glad_corr.png, id=22, 1443.9546pt x 770.10912pt>
+File: scale_glad_corr.png Graphic file (type png)
+<use scale_glad_corr.png>
+Package pdftex.def Info: scale_glad_corr.png  used on input line 70.
+(pdftex.def)             Requested size: 422.77664pt x 225.47633pt.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.60 \end{document}
-                    [1 <./runs_screenshot.png> <./run53_mw3.png> <./run62_mw3.p
-ng>] [2 <./mw3_vs_rad_run53.png> <./mw3_vs_rad_62.png>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 60.
+l.76 
+      [1 <./runs_screenshot.png> <./run53_mw3.png> <./run62_mw3.png>] [2 <./mw3
+_vs_rad_run53.png> <./mw3_vs_rad_62.png>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 78.
+ [3 <./scale_glad.png> <./scale_glad_corr.png>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 78.
  (./glad_analysis.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 60.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 60.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 78.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 78.
 Package rerunfilecheck Info: File `glad_analysis.out' has not changed.
 (rerunfilecheck)             Checksum: AE808210767FF8E318A1B2CEC6C33471;88.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 60.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 78.
  ) 
 Here is how much of TeX's memory you used:
- 6745 strings out of 494880
- 102510 string characters out of 6179601
- 180635 words of memory out of 5000000
- 10002 multiletter control sequences out of 15000+600000
+ 6759 strings out of 494880
+ 102757 string characters out of 6179601
+ 182635 words of memory out of 5000000
+ 10011 multiletter control sequences out of 15000+600000
  8494 words of font info for 30 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  42i,9n,40p,278b,474s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share
-/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texliv
-e/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on glad_analysis.pdf (3 pages, 250665 bytes).
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on glad_analysis.pdf (4 pages, 2891701 bytes).
 PDF statistics:
- 50 PDF objects out of 1000 (max. 8388607)
- 34 compressed objects within 1 object stream
- 6 named destinations out of 1000 (max. 500000)
- 34 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 70 PDF objects out of 1000 (max. 8388607)
+ 47 compressed objects within 1 object stream
+ 9 named destinations out of 1000 (max. 500000)
+ 44 words of extra memory for PDF output out of 10000 (max. 10000000)
 
