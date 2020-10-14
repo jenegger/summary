@@ -71,8 +71,35 @@ As the GLAD current can just be tuned in multiple steps of 19A, the Current valu
 	\caption{"Current vs B-Field, setting I = 1482 for RUN39."}
 \end{figure}
 \\
-Using as current 1482 for RUN 39 we get from the linear fit going through (0,0) as slope $k = 0.000657193$ (with B $= k \cdot I$).
-Plotting $k = $ Brho/(rho$\cdot$ current) we get the proportional factor $k$ for each RUN:
+Using as current 1482 for RUN 39 we get from the linear fit going through (0,0) as slope $k = 0.000657193$ (with B $= k \cdot I$). From the proportional fitting line we see that for ramping up the data points lie slightly below the fitting line but then for ramping down slowly above the line. This indicated pattern could be due to the  supposed underlying magnetic remanence which adds a positive offset when ramping down. \\
+Plotting $k = $ Brho/(rho$\cdot$ current) versus current we get the proportional factor $k$ for each RUN:\\
 
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=.9\linewidth]{k_factor.png}
+	\caption{"Current vs proportional factor $k$ for RUNs 39-61.Green line: $k$ value from fit B vs I; red line: Fit ax+b of $k$ vs I"}
+	\label{fig:k_vs_i}
+\end{figure}
+
+The plot in figure \ref{fig:k_vs_i} shows decreasing $k$ values for increasing current. The green line in figure \ref{fig:k_vs_i} shows the $k$ value retrieved from the proportional fit of B-Field versus current. The red line in figure \ref{fig:k_vs_i} is a linear fit (ax+b) of the values in the plot.\\
+From the fit we get follwing values for a and b:\\
+\begin{itemize}
+\item a $= -4.72574e-07$
+\item b $= 0.00139628$
+\end{itemize}
+
+As it can be seen the data points deviate noticeable from the straight fitting line. That means not just second order terms, but third and higher terms need to be considered when describing the B-Field by the current. \\
+From figure \ref{fig:k_vs_i} it can also be read off the value of the slope for the respective current. As $k$ (i.e. the slope) decreases with increasing current, the curve flattens out for higher current values. This is also the case in a hysteresis curve.\\
+
+\subsection{Plotting ramp up and ramp down separately}
+In figure \ref{fig:ramp_up_down} the datapoints for the ramp up (from 1482 Ampere to 1938 Ampere) and ramp down (from 1444 Ampere to 1064) are plotted separately and both fitted with a 3rd order polynomial (a$\cdot$x +b$\cdot x^{2}$ + c$\cdot x^{3}$).
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=.9\linewidth]{ramp_up_down.png}
+	\caption{"B-Field versus current for both ramp up and down phase."}
+	\label{fig:ramp_up_down}
+\end{figure}
+
+From figure \ref{fig:ramp_up_down} we can see that the slope of the fit for the ramping down phase is steeper as in the ramping up phase. As the current ranges for the two phases don't overlap we cannot derive any other information from the plot. 
 
 \end{document}

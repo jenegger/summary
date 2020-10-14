@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.7.31)  14 OCT 2020 12:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.7.31)  14 OCT 2020 17:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -638,12 +638,12 @@ LaTeX Font Info:    External font `cmex10' loaded for size
  [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-<runs_screenshot.png, id=15, 1050.92625pt x 648.4225pt>
+<runs_screenshot.png, id=19, 1050.92625pt x 648.4225pt>
 File: runs_screenshot.png Graphic file (type png)
 <use runs_screenshot.png>
 Package pdftex.def Info: runs_screenshot.png  used on input line 28.
 (pdftex.def)             Requested size: 469.75502pt x 289.83829pt.
-<run53_mw3.png, id=17, 1662.21pt x 868.24374pt>
+<run53_mw3.png, id=21, 1662.21pt x 868.24374pt>
 File: run53_mw3.png Graphic file (type png)
 <use run53_mw3.png>
 Package pdftex.def Info: run53_mw3.png  used on input line 34.
@@ -654,7 +654,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 37.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 37.
-<run62_mw3.png, id=18, 1662.21pt x 868.24374pt>
+<run62_mw3.png, id=22, 1662.21pt x 868.24374pt>
 File: run62_mw3.png Graphic file (type png)
 <use run62_mw3.png>
 Package pdftex.def Info: run62_mw3.png  used on input line 40.
@@ -664,12 +664,12 @@ Overfull \hbox (2.61107pt too wide) in paragraph at lines 32--44
 []$[]$ $[]$ 
  []
 
-<mw3_vs_rad_run53.png, id=19, 1662.21pt x 868.24374pt>
+<mw3_vs_rad_run53.png, id=23, 1662.21pt x 868.24374pt>
 File: mw3_vs_rad_run53.png Graphic file (type png)
 <use mw3_vs_rad_run53.png>
 Package pdftex.def Info: mw3_vs_rad_run53.png  used on input line 48.
 (pdftex.def)             Requested size: 380.49638pt x 198.75122pt.
-<mw3_vs_rad_62.png, id=20, 1558.82375pt x 868.24374pt>
+<mw3_vs_rad_62.png, id=24, 1558.82375pt x 868.24374pt>
 File: mw3_vs_rad_62.png Graphic file (type png)
 <use mw3_vs_rad_62.png>
 Package pdftex.def Info: mw3_vs_rad_62.png  used on input line 54.
@@ -679,55 +679,89 @@ Underfull \hbox (badness 10000) in paragraph at lines 46--58
 []$[]$
  []
 
-<scale_glad.png, id=21, 1443.9546pt x 770.10912pt>
+<scale_glad.png, id=25, 1443.9546pt x 770.10912pt>
 File: scale_glad.png Graphic file (type png)
 <use scale_glad.png>
 Package pdftex.def Info: scale_glad.png  used on input line 63.
 (pdftex.def)             Requested size: 422.77664pt x 225.47633pt.
-<scale_glad_corr.png, id=22, 1443.9546pt x 770.10912pt>
+<scale_glad_corr.png, id=26, 1443.9546pt x 770.10912pt>
 File: scale_glad_corr.png Graphic file (type png)
 <use scale_glad_corr.png>
 Package pdftex.def Info: scale_glad_corr.png  used on input line 70.
 (pdftex.def)             Requested size: 422.77664pt x 225.47633pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 60--76
+
+ []
+
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.76 
       [1 <./runs_screenshot.png> <./run53_mw3.png> <./run62_mw3.png>] [2 <./mw3
-_vs_rad_run53.png> <./mw3_vs_rad_62.png>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 78.
- [3 <./scale_glad.png> <./scale_glad_corr.png>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 78.
+_vs_rad_run53.png> <./mw3_vs_rad_62.png>] [3 <./scale_glad.png> <./scale_glad_c
+orr.png>]
+<k_factor.png, id=49, 1925.1925pt x 1026.83624pt>
+File: k_factor.png Graphic file (type png)
+<use k_factor.png>
+Package pdftex.def Info: k_factor.png  used on input line 79.
+(pdftex.def)             Requested size: 422.77664pt x 225.48163pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 84--86
+
+ []
+
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 87.
+(/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 87.
+
+Underfull \hbox (badness 10000) in paragraph at lines 91--93
+
+ []
+
+<ramp_up_down.png, id=55, 1925.1925pt x 1026.83624pt>
+File: ramp_up_down.png Graphic file (type png)
+<use ramp_up_down.png>
+Package pdftex.def Info: ramp_up_down.png  used on input line 98.
+(pdftex.def)             Requested size: 422.77664pt x 225.48163pt.
+[4 <./k_factor.png>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 105.
+ [5 <./ramp_up_down.png>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 105.
  (./glad_analysis.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 78.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 78.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 105.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 105.
 Package rerunfilecheck Info: File `glad_analysis.out' has not changed.
-(rerunfilecheck)             Checksum: AE808210767FF8E318A1B2CEC6C33471;88.
+(rerunfilecheck)             Checksum: 9F9B854776660436389CBA1DBAEC07FC;178.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 78.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 105.
  ) 
 Here is how much of TeX's memory you used:
- 6759 strings out of 494880
- 102757 string characters out of 6179601
- 182635 words of memory out of 5000000
- 10011 multiletter control sequences out of 15000+600000
- 8494 words of font info for 30 fonts, out of 8000000 for 9000
+ 6795 strings out of 494880
+ 103348 string characters out of 6179601
+ 183875 words of memory out of 5000000
+ 10037 multiletter control sequences out of 15000+600000
+ 8801 words of font info for 31 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 42i,9n,40p,278b,474s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 42i,9n,40p,447b,474s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texli
 ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on glad_analysis.pdf (4 pages, 2891701 bytes).
+fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmsy10.pfb>
+Output written on glad_analysis.pdf (6 pages, 2966376 bytes).
 PDF statistics:
- 70 PDF objects out of 1000 (max. 8388607)
- 47 compressed objects within 1 object stream
- 9 named destinations out of 1000 (max. 500000)
- 44 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 97 PDF objects out of 1000 (max. 8388607)
+ 69 compressed objects within 1 object stream
+ 14 named destinations out of 1000 (max. 500000)
+ 62 words of extra memory for PDF output out of 10000 (max. 10000000)
 
