@@ -61,7 +61,7 @@ Taking sweep RUNS 39-61 we get following plot for B-Field versus Current (where 
 \begin{figure}[!htbp]
 	\centering
 	\includegraphics[width=.9\linewidth]{scale_glad.png}
-	\caption{"Current vs B-Field"}
+	\caption{"Current vs B-Field using the E-Log Entry for RUN39, I = 1498."}
 \end{figure}
 \\
 As the GLAD current can just be tuned in multiple steps of 19A, the Current value for RUN 39 falls out of the range. Most probably that was a typo. Making same plot but changing the Current number of RUN 39 to 1482 Ampere we get:\\
@@ -86,10 +86,25 @@ From the fit we get follwing values for a and b:\\
 \begin{itemize}
 \item a $= -4.72574e-07$
 \item b $= 0.00139628$
+\item $\chi/NDf = 6.03242e-09/10$
 \end{itemize}
 
 As it can be seen the data points deviate noticeable from the straight fitting line. That means not just second order terms, but third and higher terms need to be considered when describing the B-Field by the current. \\
 From figure \ref{fig:k_vs_i} it can also be read off the value of the slope for the respective current. As $k$ (i.e. the slope) decreases with increasing current, the curve flattens out for higher current values. This is also the case in a hysteresis curve.\\
+When fitting the datapoints of $k$ with a polynomial of second order ($ax^{2}+bx +c$) we get the fitting curve shown in figure \ref{fig:k_vs_i_pol2} with the parameters:\\
+\begin{itemize}
+\item a $= 3.22629e-10$
+\item b $= -1.44161e-06$
+\item c $= 0.00210266$
+\item $\chi/NDf = 1.3088e-10/9$
+\end{itemize}
+It can be clearly seen that the fit in figure \ref{fig:k_vs_i_pol2} is much better than in figure \ref{fig:k_vs_i} (see also the $\chi/NDf$ values). Hence the B-Field can be described well by third order terms in I (curent).
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=.9\linewidth]{k_pol2.png}
+	\caption{"Current vs proportional factor $k$ for RUNs 39-61.Green line: $k$ value from fit B vs I; red line: Fit of $k$ vs I with $ax^{2}+bx +c$ "}
+	\label{fig:k_vs_i_pol2}
+\end{figure}
 
 \subsection{Plotting ramp up and ramp down separately}
 In figure \ref{fig:ramp_up_down} the datapoints for the ramp up (from 1482 Ampere to 1938 Ampere) and ramp down (from 1444 Ampere to 1064) are plotted separately and both fitted with a 3rd order polynomial (a$\cdot$x +b$\cdot x^{2}$ + c$\cdot x^{3}$).
