@@ -863,10 +863,22 @@ $\Delta t$ corresponds to the resolution of the time measurement of the TOFW.\\
 As we do not just measure the time of flight in the presence of the magnetic field of GLAD, but the entire flightpath, we use for $t$ the time of flight from target to the ToFW and as $s$ the calculated pathlength. \\
 $t = \frac{s}{\beta\cdot c} =  \frac{7.547m}{0.714549\cdot c} = 3.54\cdot10^{-8}s$\\
 with 7.547m being the mean pathlength for 12C.\\
-When fitting the time of flight we get a resolution of $\sigma_{t} = 9.204 \cdot 10^{-2}ns$\\
-From that follows a relative error due to the time resolution:\\
-$\big|\frac{\Delta A/q_{t}}{A/q}\big| = \frac{9.12 \cdot10^{-11}}{3.54\cdot10^{-8}(1-0.714549^{2})} = 5.31\cdot10^{-3}$\\
-\newline
+The time resolution is calculated by taking the mean value of $\sigma_{t}$ of the most hit TOFW detectors (run 88):\\
+\begin{itemize}
+\item 10B: most hit detnr: 12,13,14,15,16;$\sigma_{t} = 9.358 \cdot 10^{-2} ns$
+\item 11B: most hit detnr: 8,9,10,11,12;   $\sigma_{t} = 1.177\cdot 10^{-1} ns$
+\item 11C: most hit detnr: 16,17,18,19; $\sigma_{t} = 9.665 \cdot 10^{-2} ns$
+\item 12C; most hit detnr: 13,14; $\sigma_{t} = 8.885\cdot 10^{-2} ns$
+\end{itemize}
+
+From that follows a relative error due to the time resolution (assuming for all isotopes the same time of flight  and flightpath as 12C):\\
+\begin{itemize}
+\item 10B: $5.4 \cdot 10^{-3}$
+\item 11B: $6.8 \cdot 10^{-3}$
+\item 11C: $5.6 \cdot 10^{-3}$
+\item 12C: $5.1 \cdot 10^{-3}$
+\end{itemize}
+
 From fit we get  for  $\big|\frac{\Delta A/q_{\rho}}{A/q}\big| = \frac{11.91}{6554.7} = 1.82\cdot 10^{-3}$ with $11.91$ being the $ \sigma_{\rho}$ and $6554.7$ the $\rho_{mean}$ values in mm.\\
 \newline
 $\big|\frac{\Delta A/q_{s}}{A/q}\big| = \frac{\Delta s}{s\cdot \sqrt{1- \beta^{2}}}$
