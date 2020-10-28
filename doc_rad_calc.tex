@@ -994,6 +994,52 @@ A/q = $\frac{B \cdot \rho \cdot e}{\gamma\cdot\beta \cdot c \cdot u}$ \\
 we can reconstruct that if setting $\gamma$ and $\beta$ as fixed values A/q will increase for isotopes with high velocity ( short time of flight) and vice versa. Figure \ref{fig:aq_tof_fix} reflects this behavior.\\
 Using instead the time of flight and the reconstructed pathlength for each event for the calculation of $\gamma$ and $\beta$ in the A/q calculation it is expected to vertically straighten the plots. This is the case, see figure \ref{fig:aq_tof}. But the plots smear out a lot ($\big|\frac{\Delta A/q_{t}}{A/q}\big|$ is the major source of error. This was already shown in previous sections). Hence the calculation of A/q with fixed $\beta$ (and $\gamma$) is preferred. 
 \newpage
+
+\section{Revised A/q resolution... work in progress}
+
+\begin{figure}[!htbp]
+\begin{subfigure}{.5\textwidth}
+  \centering
+  % include first image
+  \includegraphics[width=.9\linewidth]{brho_b_fix_g_10b.png}  
+  \caption{}
+  \label{fig:sub-first}
+\end{subfigure}
+\begin{subfigure}{.5\textwidth}
+  \centering
+  % include second image
+  \includegraphics[width=.9\linewidth]{brho_b_fix_g_11b.png} 
+  \caption{}
+  \label{fig:sub-second}
+\end{subfigure}
+\begin{subfigure}{.5\textwidth}
+  \centering
+  % include second image
+  \includegraphics[width=.9\linewidth]{brho_b_fix_g_11c.png} 
+  \caption{}
+  \label{fig:sub-second}
+\end{subfigure}
+\begin{subfigure}{.5\textwidth}
+  \centering
+  % include second image
+  \includegraphics[width=.9\linewidth]{brho_b_fix_g_12c.png} 
+  \caption{}
+  \label{fig:sub-second}
+\end{subfigure}
+\caption{Time of Flight versus A/q with  $\beta$ from time measurement and flightpath reconstruction for RUN 88. For $\gamma$ the parameter is set to 1.42942. }
+\label{fig:aq_tof}
+\end{figure}
+
+The new resolutions from data are:\\
+\begin{itemize}
+\item 10B:$0.00541848$
+\item 11B:$0.00487890$
+\item 11C:$0.00511119$
+\item 12C:$0.00385731$
+\end{itemize}
+
+
+
 \begin{appendices}
 \section{Radius resolution with minimal constraints}
 When using minimal constraints (one single fX entry in MWPC0,1,2,3; instead of requiring also one single entry in fY for MW0,1,2,3) for events in sweep RUN 39-61 the resolution for the radius  determination improves:\\
