@@ -847,7 +847,7 @@ In figure \ref{fig:z_vs_aq} the separated isotopes are shown.
 \end{figure}
 
 
-\subsection{Limiting Mass number resolution factors\footnote{This analysis was done with RUN 88, CH2 target, 12.29mm, GLAD current = 1444 A on the isotope 12C}}
+\subsection{Limiting Mass number resolution factors\footnote{This analysis was done with RUN 88, CH2 target, 12.29mm, GLAD current = 1444 A on the isotope 12C}. $\Rightarrow$ REDO! I use $\gamma$\textunderscore fixed. Error calculation simplifies...}
 
 From the formula:\\
 A/q = $\frac{B \cdot \rho \cdot e}{\gamma\cdot\beta \cdot c \cdot u}$ \\
@@ -856,187 +856,98 @@ That means:\\
 \newline
 $\Big|\frac{\Delta A/q}{A/q}\Big| = \sqrt{\big|\frac{\Delta A/q_{\rho}}{A/q}\big|^{2} + \big|\frac{\Delta A/q_{t}}{A/q}\big|^{2} +\big|\frac{\Delta A/q_{s}}{A/q} \big|^{2}  }$ \\
 with:\\
-$\big|\frac{\Delta A/q_{\rho}}{A/q}\big| = \big|\frac{\Delta\rho}{\rho}\big|$\\
+$\big|\frac{\Delta A/q_{\rho}}{A/q}\big| = \big|\frac{\Delta\rho}{\rho}\big| = 1.64 \cdot 10^{-3}$\\
 and\\
-$\big|\frac{\Delta A/q_{t}}{A/q}\big| = \frac{\Delta t}{t\cdot(1-\beta^{2})}$ \footnote{$d\beta = -\frac{s}{c\cdot t^{2}}\Delta t = -\frac{\beta \cdot \Delta t}{t}$;\hspace{1cm}$\frac{dA/q}{d\beta} = -B\cdot\rho\cdot\frac{1}{\beta^{2}\cdot\sqrt{1-\beta^{2}}}\Delta\beta = \frac{B\cdot \rho}{\beta \cdot t \cdot \sqrt{1-\beta^{2}}}\cdot \Delta t$}\\
-$\Delta t$ corresponds to the resolution of the time measurement of the TOFW.\\
-As we do not just measure the time of flight in the presence of the magnetic field of GLAD, but the entire flightpath, we use for $t$ the time of flight from target to the ToFW and as $s$ the calculated pathlength. \\
-$t = \frac{s}{\beta\cdot c} =  \frac{7.547m}{0.714549\cdot c} = 3.54\cdot10^{-8}s$\\
-with 7.547m being the mean pathlength for 12C.\\
+$\big|\frac{\Delta A/q_{t}}{A/q}\big| = \frac{\Delta t}{t}$\\ 
+$\Delta t$ corresponds to the resolution of the time measurement of the TOFW and $t$ the time of flight from target to the TOFW ($\sim 35 ns$).\\
+and :\\
+$\big|\frac{\Delta A/q_{s}}{A/q}\big| = \frac{\Delta s}{s)}$
+with $\Delta s \sim \Delta \rho$ and s the pathlength from target to TOFW ($\sim 7500 mm$).\\
 The time resolution is calculated by taking the mean value of $\sigma_{t}$ of the most hit TOFW detectors (run 88):\\
 \begin{itemize}
-\item 10B: most hit detnr: 12,13,14,15,16;$\sigma_{t} = 9.358 \cdot 10^{-2} ns$
-\item 11B: most hit detnr: 8,9,10,11,12;   $\sigma_{t} = 1.177\cdot 10^{-1} ns$
-\item 11C: most hit detnr: 16,17,18,19; $\sigma_{t} = 9.665 \cdot 10^{-2} ns$
-\item 12C; most hit detnr: 13,14; $\sigma_{t} = 8.885\cdot 10^{-2} ns$
+\item 10B: most hit detnr: 12,13,14,15,16;$\sigma_{t} = 9.764 \cdot 10^{-2} ns$
+\item 11B: most hit detnr: 8,9,10,11,12;   $\sigma_{t} = 1.008\cdot 10^{-1} ns$
+\item 11C: most hit detnr: 16,17,18,19; $\sigma_{t} = 1.009 \cdot 10^{-1} ns$
+\item 12C; most hit detnr: 13,14; $\sigma_{t} = 9.834\cdot 10^{-2} ns$
 \end{itemize}
 
-From that follows a relative error due to the time resolution (assuming for all isotopes the same time of flight  and flightpath as 12C):\\
+From that follows a relative error due to the time resolution (assuming for all isotopes the same mean time of flight):\\
 \begin{itemize}
-\item 10B: $5.4 \cdot 10^{-3}$
-\item 11B: $6.8 \cdot 10^{-3}$
-\item 11C: $5.6 \cdot 10^{-3}$
-\item 12C: $5.1 \cdot 10^{-3}$
+\item 10B: $2.79 \cdot 10^{-3}$
+\item 11B: $ 2.88 \cdot 10^{-3}$
+\item 11C: $2.88 \cdot 10^{-3}$
+\item 12C: $ 2.81\cdot 10^{-3}$
 \end{itemize}
 
-From fit we get  for  $\big|\frac{\Delta A/q_{\rho}}{A/q}\big| = \frac{11.91}{6554.7} = 1.82\cdot 10^{-3}$ with $11.91$ being the $ \sigma_{\rho}$ and $6554.7$ the $\rho_{mean}$ values in mm.\\
-\newline
-$\big|\frac{\Delta A/q_{s}}{A/q}\big| = \frac{\Delta s}{s\cdot \sqrt{1- \beta^{2}}}$
-As main source of error for the pathlenght it is assumed to be the reconstruction of the radius and therefore the main source of error is $\rho \cdot \omega$ which is about 2.09m. From that we calculate: 
-$\Delta s = \frac{2.09}{6.5547}\cdot \sigma_{\rho} = 3.798mm $ \\
-Hence:\\
-$\big|\frac{\Delta A/q_{s}}{A/q}\big| = 1.03 \cdot 10^{-3}$\\
-\newline
-Summing up all errors quadratically we get:\\
-$\Big|\frac{\Delta A/q}{A/q}\Big| = \sqrt{ (5.31\cdot 10^{-3})^{2} + (1.82 \cdot 10^{-3})^{2} + (1.03 \cdot 10^{-3})^{2}} = 5.7 \cdot 10^{-3}$ \\ 
-\newline
-From the fit of the data plot Z vs. A/q we get:\\
-$\Big|\frac{\Delta A/q}{A/q}\Big| = \frac{\sigma_{A/q}}{A/q_{mean}} = 1.25 \cdot 10^{-2}/1.976 = 6.73 \cdot 10^{-3}$\\
-\newline
-As we see the estimated resolution factor is slightly smaller than the one from the data fit. It could be that the resolution factor for the pathlength was underestimated or that these small deviations come from binning effects.\\
 
-\subsubsection{Z vs A/q resolution for all isotopes - summary}
+$\big|\frac{\Delta A/q_{s}}{A/q}\big| = \frac{\Delta s}{s} = \frac{\Delta \rho}{s} = 1.421 \cdot 10^{-3} $
 
-\subsection{Z versus A/q calculations with (fixed) $\beta$}
-In the previous section I used both reconstructed pathlength and time of flight from data to compute the $\beta$ value for each event. In this section I use a fixed $\beta = 0.714549 (i.e. 400 A/MeV)$ to calculate A/q. This simplifies the error calculation:\\
+Summing up all errors quadratically we get for the isotopes:\\
+\begin{itemize}
+\item 12C: $\Big|\frac{\Delta A/q}{A/q}\Big| = \sqrt{ (2.81\cdot 10^{-3})^{2} + (1.64 \cdot 10^{-3})^{2} + (1.421 \cdot 10^{-3})^{2}} = 3.55 \cdot 10^{-3}$ \\
+\item 11C: $\Big|\frac{\Delta A/q}{A/q}\Big| = \sqrt{ (2.88\cdot 10^{-3})^{2} + (1.64 \cdot 10^{-3})^{2} + (1.421 \cdot 10^{-3})^{2}} = 3.61 \cdot 10^{-3}$ \\
+\item 11B: $\Big|\frac{\Delta A/q}{A/q}\Big| = \sqrt{ (2.88\cdot 10^{-3})^{2} + (1.64 \cdot 10^{-3})^{2} + (1.421 \cdot 10^{-3})^{2}} = 3.61 \cdot 10^{-3}$ \\
+\item 10B: $\Big|\frac{\Delta A/q}{A/q}\Big| = \sqrt{ (2.79\cdot 10^{-3})^{2} + (1.64 \cdot 10^{-3})^{2} + (1.421 \cdot 10^{-3})^{2}} = 3.53 \cdot 10^{-3}$ \\
+\end{itemize}
+
+
+
+\section{Revised A/q resolution (with fixed $\gamma$)... work in progress}
+
+Looking at the formula:\\
 \newline
-$\Big|\frac{\Delta A/q}{A/q}\Big| = \Big|\frac{\Delta \rho}{\rho}\Big|$ \\
+A/q = $\frac{B \cdot \rho \cdot e}{\gamma\cdot\beta \cdot c \cdot u}$ \\
+the measured observables are: s,t (which give $\beta$) and $\rho$ (from position measurements in MW1,2,3 and Z (from TWIM-Music).
+On the other side $\gamma$ remains a fixed parameter as the B-Field is too. The relativistic B-Field is determined once by the GLAD calculator. It contains already a fixed $\gamma$ value, therefore the formula has to be divided by a fixed $\gamma$ value too.\\
+In comparison to the non-relativistic formula the above one has an additional factor of $\gamma$. While the pathlength and the time of flight are measured in the lab frame ($\rho$ can be neglected, as it is perpendicular to the flight direction and therefore is the same in the patricle and lab frame), the B-Field is calculated in the GLAD calculator in the particle frame. The particle in its own frame is exposed to a higher B-Field by a factor of $\gamma$. Hence, if we want to determine the resting mass we need to divide the B-Field by $\gamma$.\\
+In figure \ref{fig:aq_tof_rev} the calculated A\textunderscore q values versus the time of flight are plotted for each isotope and each event. From the plots we get following resolutions for A/q and for $\rho$ (for RUN 88):\\
 \newline
-That means the relative  resolution of A/q should be the same as for $\rho$.\\
-From the plots we get follwing resolutions for A/q and for $\rho$(for RUN 88):\\
-\newline
-\begin{tabular}{|c|c|c|c|c|c|}
+\begin{tabular}{|c|c|c|c|}
 \hline
-Isotope & A/q & $\Big|\frac{\Delta A/q}{A/q}\Big|$ & A/q (fixed $\beta$) & $\Big|\frac{\Delta A/q}{A/q}\Big|$ (fixed $\beta$) & $\Big|\frac{\Delta \rho}{\rho}\Big|$ \\
+Isotope & A/q & $\Big|\frac{\Delta A/q}{A/q}\Big|$ \\
 \hline
-\textbf{10B:} & 1.981 & 1.036E-02 & 1.937 & 8.606E-03 & 8.679E-03 \\
+\textbf{10B:} & 1.96089 & 0.004735  \\
 \hline
-\textbf{11B:} & 2.186 & 9.904E-03 & 2.112 & 7.102E-03 & 7.061E-03 \\
+\textbf{11B:} & 2.13816 & 0.004410 \\
 \hline
-\textbf{11C:} & 1.807 & 9.753E-03 & 1.786 & 7.519E-03 & 7.514E-03\\
+\textbf{11C:} & 1.80957 & 0.004301	\\
 \hline
-\textbf{12C:} & 1.977 & 6.731E-03 & 1.947 & 1.874E-03 & 1.835E-03\\
+\textbf{12C:} & 1.96433 & 0.003220	\\
 \hline
 \end{tabular}
-\\
-\newline
-As expected $\Big|\frac{\Delta A/q}{A/q}\Big|$ (for fixed $\beta$) and $\Big|\frac{\Delta \rho}{\rho}\Big|$ are almost equal in value. Small deviations are likely credited to binning effects (rel. bin-width for $\Big|\frac{\Delta A/q}{A/q}\Big|$ calculation is $\approx 5\cdot10^{-2}$, for $\Big|\frac{\Delta \rho}{\rho}\Big| \approx 8 \cdot10^{-4}$).
 
-\subsubsection{Time of Flight versus A/q}
 \begin{figure}[!htbp]
 \begin{subfigure}{.5\textwidth}
   \centering
   % include first image
-  \includegraphics[width=.9\linewidth]{aq_fix_tof10b.png}  
+  \includegraphics[width=.9\linewidth]{latest_aq_res10b.png}  
   \caption{}
   \label{fig:sub-first}
 \end{subfigure}
 \begin{subfigure}{.5\textwidth}
   \centering
   % include second image
-  \includegraphics[width=.9\linewidth]{aq_fix_tof11b.png} 
+  \includegraphics[width=.9\linewidth]{latest_aq_res11b.png} 
   \caption{}
   \label{fig:sub-second}
 \end{subfigure}
 \begin{subfigure}{.5\textwidth}
   \centering
   % include second image
-  \includegraphics[width=.9\linewidth]{aq_fix_tof11c.png} 
+  \includegraphics[width=.9\linewidth]{latest_aq_res11c.png} 
   \caption{}
   \label{fig:sub-second}
 \end{subfigure}
 \begin{subfigure}{.5\textwidth}
   \centering
   % include second image
-  \includegraphics[width=.9\linewidth]{aq_fix_tof12c.png} 
+  \includegraphics[width=.9\linewidth]{latest_aq_res12c.png} 
   \caption{}
   \label{fig:sub-second}
 \end{subfigure}
-\caption{Time of Flight versus A/q with fixed $\beta$ for RUN 88.}
-\label{fig:aq_tof_fix}
+\caption{Time of Flight versus A/q with  $\beta$ from time measurement and flightpath reconstruction and fixed $\gamma$ for RUN 88.}
+\label{fig:aq_tof_rev}
 \end{figure}
-
-\begin{figure}[!htbp]
-\begin{subfigure}{.5\textwidth}
-  \centering
-  % include first image
-  \includegraphics[width=.9\linewidth]{aq_tof10b.png}  
-  \caption{}
-  \label{fig:sub-first}
-\end{subfigure}
-\begin{subfigure}{.5\textwidth}
-  \centering
-  % include second image
-  \includegraphics[width=.9\linewidth]{aq_tof11b.png} 
-  \caption{}
-  \label{fig:sub-second}
-\end{subfigure}
-\begin{subfigure}{.5\textwidth}
-  \centering
-  % include second image
-  \includegraphics[width=.9\linewidth]{aq_tof11c.png} 
-  \caption{}
-  \label{fig:sub-second}
-\end{subfigure}
-\begin{subfigure}{.5\textwidth}
-  \centering
-  % include second image
-  \includegraphics[width=.9\linewidth]{aq_tof12c.png} 
-  \caption{}
-  \label{fig:sub-second}
-\end{subfigure}
-\caption{Time of Flight versus A/q with  $\beta$ from time measurement and flightpath reconstruction for RUN 88.}
-\label{fig:aq_tof}
-\end{figure}
-
-When looking at the formula:\\
-A/q = $\frac{B \cdot \rho \cdot e}{\gamma\cdot\beta \cdot c \cdot u}$ \\
-we can reconstruct that if setting $\gamma$ and $\beta$ as fixed values A/q will increase for isotopes with high velocity ( short time of flight) and vice versa. Figure \ref{fig:aq_tof_fix} reflects this behavior.\\
-Using instead the time of flight and the reconstructed pathlength for each event for the calculation of $\gamma$ and $\beta$ in the A/q calculation it is expected to vertically straighten the plots. This is the case, see figure \ref{fig:aq_tof}. But the plots smear out a lot ($\big|\frac{\Delta A/q_{t}}{A/q}\big|$ is the major source of error. This was already shown in previous sections). Hence the calculation of A/q with fixed $\beta$ (and $\gamma$) is preferred. 
-\newpage
-
-\section{Revised A/q resolution... work in progress}
-
-\begin{figure}[!htbp]
-\begin{subfigure}{.5\textwidth}
-  \centering
-  % include first image
-  \includegraphics[width=.9\linewidth]{brho_b_fix_g_10b.png}  
-  \caption{}
-  \label{fig:sub-first}
-\end{subfigure}
-\begin{subfigure}{.5\textwidth}
-  \centering
-  % include second image
-  \includegraphics[width=.9\linewidth]{brho_b_fix_g_11b.png} 
-  \caption{}
-  \label{fig:sub-second}
-\end{subfigure}
-\begin{subfigure}{.5\textwidth}
-  \centering
-  % include second image
-  \includegraphics[width=.9\linewidth]{brho_b_fix_g_11c.png} 
-  \caption{}
-  \label{fig:sub-second}
-\end{subfigure}
-\begin{subfigure}{.5\textwidth}
-  \centering
-  % include second image
-  \includegraphics[width=.9\linewidth]{brho_b_fix_g_12c.png} 
-  \caption{}
-  \label{fig:sub-second}
-\end{subfigure}
-\caption{Time of Flight versus A/q with  $\beta$ from time measurement and flightpath reconstruction for RUN 88. For $\gamma$ the parameter is set to 1.42942. }
-\label{fig:aq_tof}
-\end{figure}
-
-The new resolutions from data are:\\
-\begin{itemize}
-\item 10B:$0.00541848$
-\item 11B:$0.00487890$
-\item 11C:$0.00511119$
-\item 12C:$0.00385731$
-\end{itemize}
 
 
 
@@ -1089,86 +1000,45 @@ With the exception of RUN 39 (why??) the resolution improve with low constraints
 \end{figure}
 \newpage
 \section{Time of Flight Calibration}
-To make the Time of Flight(ToF) calibration, two methods were used:\\
-\begin{enumerate}
-\item Calculate the ToF resolution = pathlength(for plastic)/(velocity) where the pathlength is a fixed parameter for each plastic while velocity = pathlength/calibrated time of flight (for each event).
-\item To remove events with large deviations in the y direction in MWPC3 a cut was made on MWPC3.fY: -20 $<$ f.Y $<$ 20 (mm)
-\newline
-Using the first method we get following ToF resolutions:\\
+To make the Time of Flight(ToF) calibration, following recipe was used:\\
+Calculate the ToF resolution = pathlength(for plastic)/(velocity) where the pathlength is a fixed parameter for each plastic while velocity = pathlength/calibrated time of flight (for each event).
+As ToF and resolution we get (using sweep RUNS 39-61):\\
 \begin{tabular}{|c|c|c|}
 \hline
 Detectornr. TOFW & mean ToF $[ns]$ &  Std\textunderscore dev $[ns]$ \\
 \hline
-1    &     4.64761e+01       &      3.81923e-01	\\
-2    &     4.64675e+01       &      3.67167e-01	\\
-3    &     4.63957e+01       &      7.76052e-02	\\
-4    &     4.63900e+01       &      6.73563e-02	\\
-5    &     4.63862e+01       &      1.00703e-01	\\
-6    &     4.63625e+01       &      6.97601e-02	\\
-7    &     4.63563e+01       &      7.85820e-02	\\
-8    &     4.63437e+01       &      8.22121e-02	\\
-9    &     4.63391e+01       &      8.67345e-02	\\
-10   &     4.63271e+01       &      1.57514e-01	\\
-11   &     4.63336e+01       &      1.34324e-01	\\
-12   &     4.63184e+01       &      1.16769e-01	\\
-13   &     4.63244e+01       &      1.04881e-01	\\
-14   &     4.63157e+01       &      9.15921e-02	\\
-15   &     4.63137e+01       &      8.36279e-02	\\
-16   &     4.63184e+01       &      9.34706e-02	\\
-17   &     4.63183e+01       &      9.16414e-02	\\
-18   &     4.63281e+01       &      1.60578e-01	\\
-19   &     4.63294e+01       &      1.06840e-01	\\
-20   &     4.63203e+01       &      1.19530e-01	\\
-21   &     4.63625e+01       &      5.28339e-01	\\
-22   &     4.63434e+01       &      9.61574e-02	\\
-23   &     4.63285e+01       &      1.00733e-01	\\
-24   &     4.63771e+01       &      1.43214e-01	\\
-25   &     4.63691e+01       &      9.87333e-02	\\
-26   &     4.63947e+01       &      3.17881e-01	\\
-27   &     4.63994e+01       &      7.93419e-02	\\
+1    &    4.06321e+01        &      6.28229e-02	\\
+2    &    4.06324e+01        &      5.53876e-02	\\
+3    &    4.06304e+01        &      8.08743e-02	\\
+4    &    4.06301e+01        &      6.90470e-02	\\
+5    &    4.06281e+01        &      8.67233e-02	\\
+6    &    4.06272e+01        &      6.83199e-02	\\
+7    &    4.06262e+01        &      8.08281e-02	\\
+8    &    4.06264e+01        &      8.28594e-02	\\
+9    &    4.06242e+01        &      8.43386e-02	\\
+10   &    4.06240e+01        &      7.83839e-02	\\
+11   &    4.06224e+01        &      1.41360e-01	\\
+12   &    4.06236e+01        &      1.16904e-01	\\
+13   &    4.06194e+01        &      1.03966e-01	\\
+14   &    4.06205e+01        &      9.27237e-02	\\
+15   &    4.06174e+01        &      8.37932e-02	\\
+16   &    4.06166e+01        &      9.08337e-02	\\
+17   &    4.06155e+01        &      9.05575e-02	\\
+18   &    4.06131e+01        &      1.20459e-01	\\
+19   &    4.06106e+01        &      1.01854e-01	\\
+20   &    4.06130e+01        &      1.21520e-01	\\
+21   &    4.06119e+01        &      2.46357e-01	\\
+22   &    4.06103e+01        &      9.69992e-02	\\
+23   &    4.06092e+01        &      9.85493e-02	\\
+24   &    4.06069e+01        &      1.38125e-01	\\
+25   &    4.06062e+01        &      1.01997e-01	\\
+26   &    4.06065e+01        &      1.00157e-01	\\
+27   &    4.06030e+01        &      7.90385e-02	\\
 \hline
 \end{tabular}
-\newline
-\\
-Using the second methods with strict constraints on MWPC3.fY we get:\\
-\begin{tabular}{|c|c|c|c|}
-\hline
-Detectornumber (TOFW)      &     Meanval $[ns]$       &         Std\textunderscore dev $[ns]$  &      No. of Events\\
-1   &  46.61        &  0             &  1    \\      
-2   &  4.64900e+01  &  1.43336e-01   &  22   \\       
-3   &  4.65016e+01  &  7.35427e-02   &  1402 \\       
-4   &  4.65008e+01  &  7.16455e-02   &  925  \\          
-5   &  4.64769e+01  &  9.06103e-02   &  190  \\       
-6   &  4.64772e+01  &  6.89027e-02   &  2536 \\     
-7   &  4.64662e+01  &  7.08772e-02   &  264  \\          
-8   &  4.64608e+01  &  8.49612e-02   &  879  \\         
-9   &  4.64600e+01  &  8.13301e-02   &  1744 \\      
-10  &  4.64793e+01  &  1.59559e-01   &  84   \\      
-11  &  4.64527e+01  &  1.38096e-01   &  1920 \\        
-12  &  4.64527e+01  &  1.24507e-01   &  563  \\        
-13  &  4.64487e+01  &  7.71276e-02   &  505  \\       
-14  &  4.64596e+01  &  1.00582e-01   &  2536 \\       
-15  &  4.64662e+01  &  7.93961e-02   &  3034 \\        
-16  &  4.64687e+01  &  8.62515e-02   &  1500 \\      
-17  &  4.64790e+01  &  8.80871e-02   &  2988 \\     
-18  &  4.64777e+01  &  1.13045e-01   &  164  \\       
-19  &  4.65012e+01  &  9.91565e-02   &  1845 \\   
-20  &  4.64933e+01  &  1.16504e-01   &  1696 \\     
-21  &  4.64629e+01  &  4.95801e-01   &  183  \\        
-22  &  4.65383e+01  &  9.55104e-02   &  2840 \\        
-23  &  4.65253e+01  &  1.16294e-01   &  352  \\     
-24  &  4.65977e+01  &  1.82543e-01   &  868  \\        
-25  &  4.65789e+01  &  1.09101e-01   &  2235 \\        
-26  &  4.65862e+01  &  1.88742e-01   &  65   \\    
-27  &  4.66393e+01  &  7.99918e-02   &  1739 \\      
-\hline
-\end{tabular}
-\newline
-\\
-From the second method we get a mean value for the std\textunderscore dev. of 0.121 ns (neglecting the std\textunderscore dev. for Detnr. 1, as we just have one event there).\\
-Without Detnr. 21, which doesn't have a good resolution, we get a mean std \textunderscore dev. of 0.105 ns.\\
-Just test git.
-\end{enumerate}
+
+This gives a mean standard deviation of $\sigma_{t} = 9.907 \cdot 10^{-2}$ 
+
 \end{appendices}
 \end{document}
 
