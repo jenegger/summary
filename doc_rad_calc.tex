@@ -688,38 +688,37 @@ Data is taken for the x-position on MW1,MW2 and MW3, time difference between STA
 The radius of curvature in GLAD is computed using the "Advanced Fit Track" method. The time of flight is calculated using the time difference between START and TOFW with the respective offsets (for the TOF detector pads) and substracting from that the fime of flight between START detector and target. The latter is calculated using $\beta = 0.714549 (\equiv 400 A/MeV)$ and as distance between START and target  1183.25 mm.\\
 \newline
 Offsets used for RUNs 82 and 83 ( using sweep RUNs 39-61) and for RUNs 86 and 88 (using sweep run 36), respectively:\\
-\begin{tabular}{|c|c|c|c|}
+\begin{tabular}{|c|c|c|}
 \hline
-Detnr. TOFW & Time offset 39-61 [s] & Time offset 36 [s] & Difference [s] \\
+Detnr. TOFW & Time offset 39-61 [ns] & Time offset 36 [ns] \\
 \hline
-1      &	1.15079E-07 &	1.141E-07    &  -9.789E-10\\
-2	   &	1.13720E-07	&	1.13329E-07  &  -3.910E-10\\
-3	   &	1.16304E-07	&	1.15778E-07  &  -5.259E-10\\
-4 	   &	1.14539E-07	&	1.13983E-07  &  -5.560E-10\\
-5	   &	1.15420E-07	&	1.14922E-07  &  -4.979E-10\\
-6	   &	1.16052E-07	&	1.15593E-07  &  -4.590E-10\\
-7	   &	1.16903E-07	&   1.16486E-07  &  -4.169E-10\\
-8	   &	1.16143E-07	&   1.15781E-07  &  -3.620E-10\\
-9	   &	1.14394E-07	&   1.14067E-07  &  -3.270E-10\\
-10	   &	1.15967E-07	&   1.15691E-07  &  -2.759E-10\\
-11     & 	1.12559E-07	&   1.12337E-07  &  -2.220E-10\\
-12     &	1.15962E-07	&   1.15764E-07  &  -1.979E-10\\
-13     &	1.13521E-07	&   1.13372E-07  &  -1.489E-10\\
-14     &	1.15088E-07	&   1.14989E-07  &  -9.900E-11\\
-15	   &	1.13676E-07	&   1.18635E-07  &  4.958E-09\\
-16	   &	1.12992E-07	&   1.17986E-07  &  4.993E-09\\
-17	   &	1.14391E-07	&   1.19424E-07  &  5.033E-09\\
-18	   &	1.12076E-07	&   1.17168E-07  &  5.091E-09\\
-19	   &	1.13234E-07	&   1.18360E-07  &  5.126E-09\\
-20	   &	1.12760E-07	&   1.17933E-07  &  5.173E-09\\
-21	   &	1.16445E-07	&   1.21687E-07  &  5.242E-09\\
-22	   &	1.16877E-07	&   1.22138E-07  &  5.261E-09\\
-23	   &	1.16077E-07	&   1.21353E-07  &  5.275E-09\\
-24     &	1.16127E-07	&   1.21457E-07  &  5.329E-09\\
-25	   &	1.14855E-07	&   1.20219E-07  &  5.363E-09\\
-26	   &	1.14363E-07	&   1.19841E-07  &  5.477E-09\\
-27	   &	1.14435E-07	&   1.19932E-07  &  5.496E-09\\
-
+1      &	114.916	&	114.4    \\
+2	   &	113.592	&	113.588  \\
+3	   &	116.172	&	116.132  \\
+4 	   &	114.396	&	114.358  \\
+5	   &	115.279	&	115.261  \\
+6	   &	115.910	&	115.886  \\
+7	   &	116.751	&   116.734  \\
+8	   &	116.002	&   115.982  \\
+9	   &	114.242	&   114.222  \\
+10	   &	115.822	&   115.801  \\
+11     & 	112.410	&   112.402  \\
+12     &	115.801	&   115.786  \\
+13     &	113.355	&   113.347  \\
+14     &	114.925	&   114.917  \\
+15	   &	113.514	&   118.516  \\
+16	   &	112.817	&   117.823  \\
+17	   &	114.214	&   119.217  \\
+18	   &	111.899	&   116.913  \\
+19	   &	113.050	&   118.063  \\
+20	   &	112.578	&   117.591  \\
+21	   &	116.283	&   121.295  \\
+22	   &	116.685	&   121.690  \\
+23	   &	115.884	&   120.896  \\
+24     &	115.922	&   120.931  \\
+25	   &	114.642	&   119.649  \\
+26	   &	114.207	&   119.225  \\
+27	   &	114.212	&   119.274  \\
 
 \hline
 
@@ -777,10 +776,10 @@ The proceeding for the Z versus A/q calculations are:
 
 
 The cuts on the various isotopes in \ref{fig:isotopes} are:\\
-10B: $4 < Z < 5.4 $ and $6266 < \rho < 6735$\\
-11B: $4 < Z < 5.5$ and $6888 < \rho < 7363$\\
-11C: $5.2 < Z < 6.8$ and $5774 < \rho < 6189$\\
-12C: $5.4 < Z < 6.8$ and $6295 < \rho < 6768$\\
+10B: $4.49 < Z < 5.35 $ and $6131 < \rho < 6786$\\
+11B: $4.34 < Z < 5.48$ and $6820 < \rho < 7505$\\
+11C: $5.54 < Z < 6.61$ and $5720 < \rho < 6216$\\
+12C: $5.42 < Z < 6.7$ and $6247 < \rho < 6850$\\
 \newline
 Using this cuts we get following fit parameters for the various isotopes:\\
 \newline
@@ -788,13 +787,13 @@ Using this cuts we get following fit parameters for the various isotopes:\\
 \hline
 Isotope & $\alpha$ & a (= slope) & b (=offset) \\
 \hline
-\textbf{10B:} & 0.32 & 0.000144005 & 0.327681\\
+\textbf{10B:} & 0.3202 & 0.000143964 & 0.327888\\
 \hline
-\textbf{11B:} & 0.2932 & 0.000139928 & 0.313335\\
+\textbf{11B:} & 0.2934 & 0.000140786 & 0.313639\\
 \hline
-\textbf{11C:} & 0.348 & 0.000146679 & 0.34352\\
+\textbf{11C:} & 0.3461 & 0.000146043 & 0.340846\\
 \hline
-\textbf{12C:} & 0.3179 & 0.00014353 & 0.326665\\
+\textbf{12C:} & 0.3178 & 0.000143976 & 0.326675\\
 \hline
 \end{tabular}
 \\
@@ -978,26 +977,7 @@ Runnr. & $\overline{\rho}$ & $\sigma$ & rel. resolution \\
 \\
 \newline
 With the exception of RUN 39 (why??) the resolution improve with low constraints. This could be due to the lower angular straggling inpact when particles don't hit/interact with the y-wires of the MWPCs.\\
-\begin{figure}[!htb]
-	\centering
-	\includegraphics[width=0.9\textwidth]{mw3_vs_rad_low_const.png}
-	\caption{MW3.fX vs GLAD Radius for RUNs 39-61 with low constraints.}
-	\label{fig:mw3_rad_low_const}
-\end{figure}
 
-\begin{figure}[!htb]
-	\centering
-	\includegraphics[width=0.9\textwidth]{theta_in_rad_low_constr.png}
-	\caption{Theta\textunderscore in vs GLAD Radius for RUNs 39-61 with low constraints.}
-	\label{fig:theta_in_rad_low_const}
-\end{figure}
-
-\begin{figure}[!htb]
-	\centering
-	\includegraphics[width=0.9\textwidth]{theta_out_vs_rad_low_constr.png}
-	\caption{Theta\textunderscore out vs GLAD Radius for RUNs 39-61 with low constraints.}
-	\label{fig:theta_out_rad_low_const}
-\end{figure}
 \newpage
 \section{Time of Flight Calibration}
 To make the Time of Flight(ToF) calibration, following recipe was used:\\

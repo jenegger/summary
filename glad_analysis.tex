@@ -116,7 +116,7 @@ In figure \ref{fig:ramp_up_down} the datapoints for the ramp up (from 1482 Amper
 \end{figure}
 
 From figure \ref{fig:ramp_up_down} we can see that the slope of the fit for the ramping down phase is steeper as in the ramping up phase. As the current ranges for the two phases don't overlap we cannot derive any other information from the plot. 
-\section{Plots with errors in B ( = 6.3472/radius)}
+\section{Plots with errors in B ( = 6.3472/radius) plotting and fitting ramp up and down together}
 Therefore $\sigma_{B}$ (coming from the error in the radius computation) has to be extracted to get the standard error of the mean (SEM).\\
 
 \begin{tabular}{|c|c|c|c|c|}
@@ -139,9 +139,15 @@ Runnr. & B-mean & $\sigma_{B}$ & No. of Events & SEM \\
 \hline
 
 \end{tabular}
+\newline
+In figure \ref{fig:together} the calculated B-Field is plotted against the current and fitted with a polynomial function . The error bars cannot be visualized, as the SEM is five magnitudes smaller than the value of the B-Field. This causes also the large chi\textunderscore square values. Nevertheless the fit seems to coincide quite well with the data point. The linear part dominates with an offset of about 0.05.
 
-In figure blabla the calculated B-Field is plotted against the current. The error bars cannot be visualized, as the SEM is five magnitudes smaller than the value of the B-Field. This causes also the large chi\textunderscore square values. Nevertheless the fit seems to coincide quite well with the data point. The linear part dominates with an offset of about 0.05.
-
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=.9\linewidth]{glad_pol2_fit_together.png}
+	\label{fig:together}
+	\caption{"B-Field versus current for both ramp up and down phase."}
+\end{figure}
 
 \section{Other Empty Target RUNS at 400 AMeV, 1444 A}
 \begin{itemize}
@@ -178,6 +184,15 @@ Runnr. & B-mean & $\sigma_{B}$ & No. of Events & SEM\\
 \hline
 
 \end{tabular}
+\newline
+\\
+Figure \ref{compare_empty} shows graphically the calculated B-Field values for the emty target RUNS with I = 1444A.
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=.9\linewidth]{b_field_I_1444.png}
+	\label{compare_empty}
+	\caption{"B-Field versus current for empty runs with I = 1444 A."}
+\end{figure}
 
 
 \end{document}
