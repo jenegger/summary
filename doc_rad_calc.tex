@@ -948,6 +948,14 @@ Isotope & A/q & $\Big|\frac{\Delta A/q}{A/q}\Big|$ \\
 \label{fig:aq_tof_rev}
 \end{figure}
 
+\section{Set by step discrimination of the isotopes}
+\begin{itemize}
+\item Plot the charge values of the particles going through TWIM Music and make a gauss fit on them. The intersection of the two gaussians is the charge cut betweeen Z = 5 and Z = 6.
+\item Plot A/q  versus time of flightfor both charges using the derived formula for $\rho$
+\item Project the plot to the A/q axis and make two gaussian fits on both Z = 5 and Z = 6. The intersection between the gaussians give you the mass cuts between 11C and 12C (10B and 11B).
+\item Now plot for each isotope theta \textunderscore out vs x\textunderscore MW3. Make a linear fit on it and extract from it the parameters $\alpha$, a and b (for the formula: $theta \textunderscore in = \alpha - a\cdot x\textunderscore MW3 -b$)
+\item Now calculate again A/q for each isotope using the formula for $\rho$ but now with the formula for theta \textunderscore in from the previous step
+\end{itemize}
 
 
 \begin{appendices}
